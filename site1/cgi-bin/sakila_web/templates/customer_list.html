@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/style1.css" type="text/css"/>
+</head>
+<body>
+
+    <table class="grid">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for cust in customers %}
+                <tr>
+                    <td>{{ cust.customer_id }}</td>
+                    <td>{{ cust.first_name }}</td>
+                    <td>{{ cust.last_name }}</td>
+                    <td> {{ cust.email }}</td>
+                    <td>{{ cust.address_id }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

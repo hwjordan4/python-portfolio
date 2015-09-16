@@ -1,0 +1,440 @@
+2015-06-09 16:12:33,630 - INFO - get
+2015-06-09 16:12:33,631 - INFO - [('/customer$', <function all_customers at 0x00000000016FCD08>), ('/city$', <function all_cities at 0x00000000016FCD90>), ('/store$', <function all_stores at 0x00000000016FCE18>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCEA0>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FA048>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FA0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA158>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA1E0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA400>), ('', <function no_match at 0x00000000016FA488>)]
+2015-06-09 16:12:33,631 - INFO - dispatch started
+2015-06-09 16:12:33,631 - INFO - rgx /customer$   path /customer/400   match None
+2015-06-09 16:12:33,632 - INFO - rgx /city$   path /customer/400   match None
+2015-06-09 16:12:33,632 - INFO - rgx /store$   path /customer/400   match None
+2015-06-09 16:12:33,632 - INFO - rgx /country/(\d+)$   path /customer/400   match None
+2015-06-09 16:12:33,633 - INFO - rgx /customer/(\d+)$   path /customer/400   match <_sre.SRE_Match object; span=(0, 13), match='/customer/400'>
+2015-06-09 16:12:33,807 - INFO - get
+2015-06-09 16:12:33,807 - INFO - [('/customer$', <function all_customers at 0x000000000172CD08>), ('/city$', <function all_cities at 0x000000000172CD90>), ('/store$', <function all_stores at 0x000000000172CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A400>), ('', <function no_match at 0x000000000172A488>)]
+2015-06-09 16:12:33,807 - INFO - dispatch started
+2015-06-09 16:12:33,808 - INFO - rgx /customer$   path /address/405   match None
+2015-06-09 16:12:33,808 - INFO - rgx /city$   path /address/405   match None
+2015-06-09 16:12:33,808 - INFO - rgx /store$   path /address/405   match None
+2015-06-09 16:12:33,809 - INFO - rgx /country/(\d+)$   path /address/405   match None
+2015-06-09 16:12:33,809 - INFO - rgx /customer/(\d+)$   path /address/405   match None
+2015-06-09 16:12:33,810 - INFO - rgx /city/(\d+)$   path /address/405   match None
+2015-06-09 16:12:33,810 - INFO - rgx /address/(\d+)$   path /address/405   match <_sre.SRE_Match object; span=(0, 12), match='/address/405'>
+2015-06-09 16:12:33,962 - INFO - get
+2015-06-09 16:12:33,963 - INFO - [('/customer$', <function all_customers at 0x000000000177CD08>), ('/city$', <function all_cities at 0x000000000177CD90>), ('/store$', <function all_stores at 0x000000000177CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000177CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000177CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000177A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000177A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000177A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000177A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000177A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000177A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000177A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000177A400>), ('', <function no_match at 0x000000000177A488>)]
+2015-06-09 16:12:33,963 - INFO - dispatch started
+2015-06-09 16:12:33,963 - INFO - rgx /customer$   path /city/135   match None
+2015-06-09 16:12:33,964 - INFO - rgx /city$   path /city/135   match None
+2015-06-09 16:12:33,964 - INFO - rgx /store$   path /city/135   match None
+2015-06-09 16:12:33,964 - INFO - rgx /country/(\d+)$   path /city/135   match None
+2015-06-09 16:12:33,965 - INFO - rgx /customer/(\d+)$   path /city/135   match None
+2015-06-09 16:12:33,965 - INFO - rgx /city/(\d+)$   path /city/135   match <_sre.SRE_Match object; span=(0, 9), match='/city/135'>
+2015-06-09 16:12:34,118 - INFO - get
+2015-06-09 16:12:34,118 - INFO - [('/customer$', <function all_customers at 0x000000000172CD08>), ('/city$', <function all_cities at 0x000000000172CD90>), ('/store$', <function all_stores at 0x000000000172CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A400>), ('', <function no_match at 0x000000000172A488>)]
+2015-06-09 16:12:34,118 - INFO - dispatch started
+2015-06-09 16:12:34,118 - INFO - rgx /customer$   path /country/103   match None
+2015-06-09 16:12:34,119 - INFO - rgx /city$   path /country/103   match None
+2015-06-09 16:12:34,119 - INFO - rgx /store$   path /country/103   match None
+2015-06-09 16:12:34,120 - INFO - rgx /country/(\d+)$   path /country/103   match <_sre.SRE_Match object; span=(0, 12), match='/country/103'>
+2015-06-09 16:12:34,277 - INFO - get
+2015-06-09 16:12:34,278 - INFO - [('/customer$', <function all_customers at 0x000000000171CD08>), ('/city$', <function all_cities at 0x000000000171CD90>), ('/store$', <function all_stores at 0x000000000171CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A400>), ('', <function no_match at 0x000000000171A488>)]
+2015-06-09 16:12:34,278 - INFO - dispatch started
+2015-06-09 16:12:34,278 - INFO - rgx /customer$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,279 - INFO - rgx /city$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,279 - INFO - rgx /store$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,279 - INFO - rgx /country/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,280 - INFO - rgx /customer/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,280 - INFO - rgx /city/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,280 - INFO - rgx /address/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,281 - INFO - rgx /inventory/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,281 - INFO - rgx /film/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,282 - INFO - rgx /store/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 16:12:34,282 - INFO - rgx /rental/customerid/(\d+)$   path /rental/customerid/400   match <_sre.SRE_Match object; span=(0, 22), match='/rental/customerid/400'>
+2015-06-09 16:12:34,428 - INFO - get
+2015-06-09 16:12:34,429 - INFO - [('/customer$', <function all_customers at 0x000000000172CD08>), ('/city$', <function all_cities at 0x000000000172CD90>), ('/store$', <function all_stores at 0x000000000172CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A400>), ('', <function no_match at 0x000000000172A488>)]
+2015-06-09 16:12:34,429 - INFO - dispatch started
+2015-06-09 16:12:34,429 - INFO - rgx /customer$   path /inventory/178   match None
+2015-06-09 16:12:34,430 - INFO - rgx /city$   path /inventory/178   match None
+2015-06-09 16:12:34,430 - INFO - rgx /store$   path /inventory/178   match None
+2015-06-09 16:12:34,430 - INFO - rgx /country/(\d+)$   path /inventory/178   match None
+2015-06-09 16:12:34,431 - INFO - rgx /customer/(\d+)$   path /inventory/178   match None
+2015-06-09 16:12:34,431 - INFO - rgx /city/(\d+)$   path /inventory/178   match None
+2015-06-09 16:12:34,431 - INFO - rgx /address/(\d+)$   path /inventory/178   match None
+2015-06-09 16:12:34,432 - INFO - rgx /inventory/(\d+)$   path /inventory/178   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/178'>
+2015-06-09 16:12:34,574 - INFO - get
+2015-06-09 16:12:34,575 - INFO - [('/customer$', <function all_customers at 0x000000000178CD08>), ('/city$', <function all_cities at 0x000000000178CD90>), ('/store$', <function all_stores at 0x000000000178CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000178CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000178CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000178A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000178A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000178A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000178A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000178A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000178A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000178A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000178A400>), ('', <function no_match at 0x000000000178A488>)]
+2015-06-09 16:12:34,575 - INFO - dispatch started
+2015-06-09 16:12:34,575 - INFO - rgx /customer$   path /film/39   match None
+2015-06-09 16:12:34,575 - INFO - rgx /city$   path /film/39   match None
+2015-06-09 16:12:34,576 - INFO - rgx /store$   path /film/39   match None
+2015-06-09 16:12:34,576 - INFO - rgx /country/(\d+)$   path /film/39   match None
+2015-06-09 16:12:34,576 - INFO - rgx /customer/(\d+)$   path /film/39   match None
+2015-06-09 16:12:34,577 - INFO - rgx /city/(\d+)$   path /film/39   match None
+2015-06-09 16:12:34,577 - INFO - rgx /address/(\d+)$   path /film/39   match None
+2015-06-09 16:12:34,577 - INFO - rgx /inventory/(\d+)$   path /film/39   match None
+2015-06-09 16:12:34,578 - INFO - rgx /film/(\d+)$   path /film/39   match <_sre.SRE_Match object; span=(0, 8), match='/film/39'>
+2015-06-09 16:12:34,722 - INFO - get
+2015-06-09 16:12:34,722 - INFO - [('/customer$', <function all_customers at 0x000000000172CD08>), ('/city$', <function all_cities at 0x000000000172CD90>), ('/store$', <function all_stores at 0x000000000172CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A400>), ('', <function no_match at 0x000000000172A488>)]
+2015-06-09 16:12:34,722 - INFO - dispatch started
+2015-06-09 16:12:34,723 - INFO - rgx /customer$   path /inventory/4483   match None
+2015-06-09 16:12:34,723 - INFO - rgx /city$   path /inventory/4483   match None
+2015-06-09 16:12:34,723 - INFO - rgx /store$   path /inventory/4483   match None
+2015-06-09 16:12:34,724 - INFO - rgx /country/(\d+)$   path /inventory/4483   match None
+2015-06-09 16:12:34,724 - INFO - rgx /customer/(\d+)$   path /inventory/4483   match None
+2015-06-09 16:12:34,724 - INFO - rgx /city/(\d+)$   path /inventory/4483   match None
+2015-06-09 16:12:34,725 - INFO - rgx /address/(\d+)$   path /inventory/4483   match None
+2015-06-09 16:12:34,725 - INFO - rgx /inventory/(\d+)$   path /inventory/4483   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4483'>
+2015-06-09 16:12:34,891 - INFO - get
+2015-06-09 16:12:34,892 - INFO - [('/customer$', <function all_customers at 0x000000000175CD08>), ('/city$', <function all_cities at 0x000000000175CD90>), ('/store$', <function all_stores at 0x000000000175CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000175CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000175CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000175A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000175A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000175A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000175A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000175A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000175A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000175A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000175A400>), ('', <function no_match at 0x000000000175A488>)]
+2015-06-09 16:12:34,892 - INFO - dispatch started
+2015-06-09 16:12:34,892 - INFO - rgx /customer$   path /film/979   match None
+2015-06-09 16:12:34,893 - INFO - rgx /city$   path /film/979   match None
+2015-06-09 16:12:34,893 - INFO - rgx /store$   path /film/979   match None
+2015-06-09 16:12:34,893 - INFO - rgx /country/(\d+)$   path /film/979   match None
+2015-06-09 16:12:34,894 - INFO - rgx /customer/(\d+)$   path /film/979   match None
+2015-06-09 16:12:34,894 - INFO - rgx /city/(\d+)$   path /film/979   match None
+2015-06-09 16:12:34,894 - INFO - rgx /address/(\d+)$   path /film/979   match None
+2015-06-09 16:12:34,895 - INFO - rgx /inventory/(\d+)$   path /film/979   match None
+2015-06-09 16:12:34,895 - INFO - rgx /film/(\d+)$   path /film/979   match <_sre.SRE_Match object; span=(0, 9), match='/film/979'>
+2015-06-09 16:12:35,072 - INFO - get
+2015-06-09 16:12:35,073 - INFO - [('/customer$', <function all_customers at 0x000000000173CD08>), ('/city$', <function all_cities at 0x000000000173CD90>), ('/store$', <function all_stores at 0x000000000173CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000173CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000173CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000173A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000173A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000173A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000173A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000173A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000173A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000173A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000173A400>), ('', <function no_match at 0x000000000173A488>)]
+2015-06-09 16:12:35,073 - INFO - dispatch started
+2015-06-09 16:12:35,073 - INFO - rgx /customer$   path /inventory/4357   match None
+2015-06-09 16:12:35,074 - INFO - rgx /city$   path /inventory/4357   match None
+2015-06-09 16:12:35,074 - INFO - rgx /store$   path /inventory/4357   match None
+2015-06-09 16:12:35,074 - INFO - rgx /country/(\d+)$   path /inventory/4357   match None
+2015-06-09 16:12:35,076 - INFO - rgx /customer/(\d+)$   path /inventory/4357   match None
+2015-06-09 16:12:35,077 - INFO - rgx /city/(\d+)$   path /inventory/4357   match None
+2015-06-09 16:12:35,077 - INFO - rgx /address/(\d+)$   path /inventory/4357   match None
+2015-06-09 16:12:35,078 - INFO - rgx /inventory/(\d+)$   path /inventory/4357   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4357'>
+2015-06-09 16:12:35,260 - INFO - get
+2015-06-09 16:12:35,260 - INFO - [('/customer$', <function all_customers at 0x000000000173CD08>), ('/city$', <function all_cities at 0x000000000173CD90>), ('/store$', <function all_stores at 0x000000000173CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000173CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000173CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000173A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000173A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000173A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000173A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000173A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000173A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000173A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000173A400>), ('', <function no_match at 0x000000000173A488>)]
+2015-06-09 16:12:35,260 - INFO - dispatch started
+2015-06-09 16:12:35,261 - INFO - rgx /customer$   path /film/949   match None
+2015-06-09 16:12:35,261 - INFO - rgx /city$   path /film/949   match None
+2015-06-09 16:12:35,261 - INFO - rgx /store$   path /film/949   match None
+2015-06-09 16:12:35,262 - INFO - rgx /country/(\d+)$   path /film/949   match None
+2015-06-09 16:12:35,262 - INFO - rgx /customer/(\d+)$   path /film/949   match None
+2015-06-09 16:12:35,263 - INFO - rgx /city/(\d+)$   path /film/949   match None
+2015-06-09 16:12:35,263 - INFO - rgx /address/(\d+)$   path /film/949   match None
+2015-06-09 16:12:35,263 - INFO - rgx /inventory/(\d+)$   path /film/949   match None
+2015-06-09 16:12:35,264 - INFO - rgx /film/(\d+)$   path /film/949   match <_sre.SRE_Match object; span=(0, 9), match='/film/949'>
+2015-06-09 16:12:35,428 - INFO - get
+2015-06-09 16:12:35,428 - INFO - [('/customer$', <function all_customers at 0x000000000178CD08>), ('/city$', <function all_cities at 0x000000000178CD90>), ('/store$', <function all_stores at 0x000000000178CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000178CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000178CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000178A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000178A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000178A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000178A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000178A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000178A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000178A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000178A400>), ('', <function no_match at 0x000000000178A488>)]
+2015-06-09 16:12:35,428 - INFO - dispatch started
+2015-06-09 16:12:35,430 - INFO - rgx /customer$   path /inventory/1118   match None
+2015-06-09 16:12:35,430 - INFO - rgx /city$   path /inventory/1118   match None
+2015-06-09 16:12:35,430 - INFO - rgx /store$   path /inventory/1118   match None
+2015-06-09 16:12:35,431 - INFO - rgx /country/(\d+)$   path /inventory/1118   match None
+2015-06-09 16:12:35,431 - INFO - rgx /customer/(\d+)$   path /inventory/1118   match None
+2015-06-09 16:12:35,432 - INFO - rgx /city/(\d+)$   path /inventory/1118   match None
+2015-06-09 16:12:35,432 - INFO - rgx /address/(\d+)$   path /inventory/1118   match None
+2015-06-09 16:12:35,432 - INFO - rgx /inventory/(\d+)$   path /inventory/1118   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/1118'>
+2015-06-09 16:12:35,586 - INFO - get
+2015-06-09 16:12:35,586 - INFO - [('/customer$', <function all_customers at 0x00000000016DCD08>), ('/city$', <function all_cities at 0x00000000016DCD90>), ('/store$', <function all_stores at 0x00000000016DCE18>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016DCF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016DCEA0>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016DA048>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016DA0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016DA158>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016DA1E0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016DA268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016DA2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016DA378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016DA400>), ('', <function no_match at 0x00000000016DA488>)]
+2015-06-09 16:12:35,587 - INFO - dispatch started
+2015-06-09 16:12:35,587 - INFO - rgx /customer$   path /film/247   match None
+2015-06-09 16:12:35,587 - INFO - rgx /city$   path /film/247   match None
+2015-06-09 16:12:35,588 - INFO - rgx /store$   path /film/247   match None
+2015-06-09 16:12:35,588 - INFO - rgx /country/(\d+)$   path /film/247   match None
+2015-06-09 16:12:35,589 - INFO - rgx /customer/(\d+)$   path /film/247   match None
+2015-06-09 16:12:35,589 - INFO - rgx /city/(\d+)$   path /film/247   match None
+2015-06-09 16:12:35,589 - INFO - rgx /address/(\d+)$   path /film/247   match None
+2015-06-09 16:12:35,590 - INFO - rgx /inventory/(\d+)$   path /film/247   match None
+2015-06-09 16:12:35,590 - INFO - rgx /film/(\d+)$   path /film/247   match <_sre.SRE_Match object; span=(0, 9), match='/film/247'>
+2015-06-09 16:12:35,752 - INFO - get
+2015-06-09 16:12:35,752 - INFO - [('/customer$', <function all_customers at 0x000000000171CD08>), ('/city$', <function all_cities at 0x000000000171CD90>), ('/store$', <function all_stores at 0x000000000171CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A400>), ('', <function no_match at 0x000000000171A488>)]
+2015-06-09 16:12:35,752 - INFO - dispatch started
+2015-06-09 16:12:35,753 - INFO - rgx /customer$   path /inventory/115   match None
+2015-06-09 16:12:35,753 - INFO - rgx /city$   path /inventory/115   match None
+2015-06-09 16:12:35,753 - INFO - rgx /store$   path /inventory/115   match None
+2015-06-09 16:12:35,754 - INFO - rgx /country/(\d+)$   path /inventory/115   match None
+2015-06-09 16:12:35,754 - INFO - rgx /customer/(\d+)$   path /inventory/115   match None
+2015-06-09 16:12:35,756 - INFO - rgx /city/(\d+)$   path /inventory/115   match None
+2015-06-09 16:12:35,756 - INFO - rgx /address/(\d+)$   path /inventory/115   match None
+2015-06-09 16:12:35,757 - INFO - rgx /inventory/(\d+)$   path /inventory/115   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/115'>
+2015-06-09 16:12:35,925 - INFO - get
+2015-06-09 16:12:35,925 - INFO - [('/customer$', <function all_customers at 0x000000000170CD08>), ('/city$', <function all_cities at 0x000000000170CD90>), ('/store$', <function all_stores at 0x000000000170CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A400>), ('', <function no_match at 0x000000000170A488>)]
+2015-06-09 16:12:35,925 - INFO - dispatch started
+2015-06-09 16:12:35,926 - INFO - rgx /customer$   path /film/23   match None
+2015-06-09 16:12:35,926 - INFO - rgx /city$   path /film/23   match None
+2015-06-09 16:12:35,926 - INFO - rgx /store$   path /film/23   match None
+2015-06-09 16:12:35,927 - INFO - rgx /country/(\d+)$   path /film/23   match None
+2015-06-09 16:12:35,927 - INFO - rgx /customer/(\d+)$   path /film/23   match None
+2015-06-09 16:12:35,928 - INFO - rgx /city/(\d+)$   path /film/23   match None
+2015-06-09 16:12:35,928 - INFO - rgx /address/(\d+)$   path /film/23   match None
+2015-06-09 16:12:35,928 - INFO - rgx /inventory/(\d+)$   path /film/23   match None
+2015-06-09 16:12:35,929 - INFO - rgx /film/(\d+)$   path /film/23   match <_sre.SRE_Match object; span=(0, 8), match='/film/23'>
+2015-06-09 16:12:36,075 - INFO - get
+2015-06-09 16:12:36,076 - INFO - [('/customer$', <function all_customers at 0x000000000172CD08>), ('/city$', <function all_cities at 0x000000000172CD90>), ('/store$', <function all_stores at 0x000000000172CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A400>), ('', <function no_match at 0x000000000172A488>)]
+2015-06-09 16:12:36,076 - INFO - dispatch started
+2015-06-09 16:12:36,076 - INFO - rgx /customer$   path /inventory/2667   match None
+2015-06-09 16:12:36,076 - INFO - rgx /city$   path /inventory/2667   match None
+2015-06-09 16:12:36,077 - INFO - rgx /store$   path /inventory/2667   match None
+2015-06-09 16:12:36,077 - INFO - rgx /country/(\d+)$   path /inventory/2667   match None
+2015-06-09 16:12:36,078 - INFO - rgx /customer/(\d+)$   path /inventory/2667   match None
+2015-06-09 16:12:36,078 - INFO - rgx /city/(\d+)$   path /inventory/2667   match None
+2015-06-09 16:12:36,079 - INFO - rgx /address/(\d+)$   path /inventory/2667   match None
+2015-06-09 16:12:36,079 - INFO - rgx /inventory/(\d+)$   path /inventory/2667   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2667'>
+2015-06-09 16:12:36,233 - INFO - get
+2015-06-09 16:12:36,234 - INFO - [('/customer$', <function all_customers at 0x000000000171CD08>), ('/city$', <function all_cities at 0x000000000171CD90>), ('/store$', <function all_stores at 0x000000000171CE18>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CEA0>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171A048>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A158>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A1E0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A400>), ('', <function no_match at 0x000000000171A488>)]
+2015-06-09 16:12:36,234 - INFO - dispatch started
+2015-06-09 16:12:36,234 - INFO - rgx /customer$   path /film/586   match None
+2015-06-09 16:12:36,234 - INFO - rgx /city$   path /film/586   match None
+2015-06-09 16:12:36,235 - INFO - rgx /store$   path /film/586   match None
+2015-06-09 16:12:36,235 - INFO - rgx /country/(\d+)$   path /film/586   match None
+2015-06-09 16:12:36,236 - INFO - rgx /customer/(\d+)$   path /film/586   match None
+2015-06-09 16:12:36,236 - INFO - rgx /city/(\d+)$   path /film/586   match None
+2015-06-09 16:12:36,236 - INFO - rgx /address/(\d+)$   path /film/586   match None
+2015-06-09 16:12:36,237 - INFO - rgx /inventory/(\d+)$   path /film/586   match None
+2015-06-09 16:12:36,237 - INFO - rgx /film/(\d+)$   path /film/586   match <_sre.SRE_Match object; span=(0, 9), match='/film/586'>
+2015-06-09 16:12:36,404 - INFO - get
+2015-06-09 16:12:36,404 - INFO - [('/customer$', <function all_customers at 0x00000000016DCD08>), ('/city$', <function all_cities at 0x00000000016DCD90>), ('/store$', <function all_stores at 0x00000000016DCE18>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016DCF28>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016DCEA0>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016DA048>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016DA0D0>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016DA158>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016DA1E0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016DA268>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016DA2F0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016DA378>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016DA400>), ('', <function no_match at 0x00000000016DA488>)]
+2015-06-09 16:12:36,405 - INFO - dispatch started
+2015-06-09 16:12:36,405 - INFO - rgx /customer$   path /inventory/691   match None
+2015-06-09 16:12:36,405 - INFO - rgx /city$   path /inventory/691   match None
+2015-06-09 16:12:36,406 - INFO - rgx /store$   path /inventory/691   match None
+2015-06-09 16:12:36,406 - INFO - rgx /country/(\d+)$   path /inventory/691   match None
+2015-06-09 16:12:36,406 - INFO - rgx /customer/(\d+)$   path /inventory/691   match None
+2015-06-09 16:12:36,407 - INFO - rgx /city/(\d+)$   path /inventory/691   match None
+2015-06-09 16:12:36,407 - INFO - rgx /address/(\d+)$   path /inventory/691   match None
+2015-06-09 16:12:36,409 - INFO - rgx /inventory/(\d+)$   path /inventory/691   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/691'>
+2015-06-09 19:59:37,586 - INFO - get
+2015-06-09 19:59:37,624 - INFO - [('/customer$', <function all_customers at 0x000000000175FC80>), ('/city$', <function all_cities at 0x000000000175FD08>), ('/store$', <function all_stores at 0x000000000175FD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000175FEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000175FE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000175FF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000175B048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000175B0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000175B158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000175B1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000175B268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000175B2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000175B378>), ('', <function no_match at 0x000000000175B400>)]
+2015-06-09 19:59:37,625 - INFO - dispatch started
+2015-06-09 19:59:37,626 - INFO - rgx /customer$   path /customer/400   match None
+2015-06-09 19:59:37,626 - INFO - rgx /city$   path /customer/400   match None
+2015-06-09 19:59:37,627 - INFO - rgx /store$   path /customer/400   match None
+2015-06-09 19:59:37,628 - INFO - rgx /country/(\d+)$   path /customer/400   match None
+2015-06-09 19:59:37,629 - INFO - rgx /customer/(\d+)$   path /customer/400   match <_sre.SRE_Match object; span=(0, 13), match='/customer/400'>
+2015-06-09 19:59:37,931 - INFO - get
+2015-06-09 19:59:37,931 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:37,931 - INFO - dispatch started
+2015-06-09 19:59:37,932 - INFO - rgx /customer$   path /address/405   match None
+2015-06-09 19:59:37,932 - INFO - rgx /city$   path /address/405   match None
+2015-06-09 19:59:37,932 - INFO - rgx /store$   path /address/405   match None
+2015-06-09 19:59:37,933 - INFO - rgx /country/(\d+)$   path /address/405   match None
+2015-06-09 19:59:37,933 - INFO - rgx /customer/(\d+)$   path /address/405   match None
+2015-06-09 19:59:37,933 - INFO - rgx /city/(\d+)$   path /address/405   match None
+2015-06-09 19:59:37,934 - INFO - rgx /address/(\d+)$   path /address/405   match <_sre.SRE_Match object; span=(0, 12), match='/address/405'>
+2015-06-09 19:59:38,081 - INFO - get
+2015-06-09 19:59:38,081 - INFO - [('/customer$', <function all_customers at 0x000000000175CC80>), ('/city$', <function all_cities at 0x000000000175CD08>), ('/store$', <function all_stores at 0x000000000175CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000175CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000175CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000175CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000175A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000175A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000175A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000175A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000175A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000175A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000175A378>), ('', <function no_match at 0x000000000175A400>)]
+2015-06-09 19:59:38,082 - INFO - dispatch started
+2015-06-09 19:59:38,082 - INFO - rgx /customer$   path /city/135   match None
+2015-06-09 19:59:38,082 - INFO - rgx /city$   path /city/135   match None
+2015-06-09 19:59:38,082 - INFO - rgx /store$   path /city/135   match None
+2015-06-09 19:59:38,083 - INFO - rgx /country/(\d+)$   path /city/135   match None
+2015-06-09 19:59:38,083 - INFO - rgx /customer/(\d+)$   path /city/135   match None
+2015-06-09 19:59:38,084 - INFO - rgx /city/(\d+)$   path /city/135   match <_sre.SRE_Match object; span=(0, 9), match='/city/135'>
+2015-06-09 19:59:38,211 - INFO - get
+2015-06-09 19:59:38,211 - INFO - [('/customer$', <function all_customers at 0x000000000171CC80>), ('/city$', <function all_cities at 0x000000000171CD08>), ('/store$', <function all_stores at 0x000000000171CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A378>), ('', <function no_match at 0x000000000171A400>)]
+2015-06-09 19:59:38,211 - INFO - dispatch started
+2015-06-09 19:59:38,211 - INFO - rgx /customer$   path /country/103   match None
+2015-06-09 19:59:38,212 - INFO - rgx /city$   path /country/103   match None
+2015-06-09 19:59:38,212 - INFO - rgx /store$   path /country/103   match None
+2015-06-09 19:59:38,212 - INFO - rgx /country/(\d+)$   path /country/103   match <_sre.SRE_Match object; span=(0, 12), match='/country/103'>
+2015-06-09 19:59:38,341 - INFO - get
+2015-06-09 19:59:38,341 - INFO - [('/customer$', <function all_customers at 0x000000000171CC80>), ('/city$', <function all_cities at 0x000000000171CD08>), ('/store$', <function all_stores at 0x000000000171CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A378>), ('', <function no_match at 0x000000000171A400>)]
+2015-06-09 19:59:38,341 - INFO - dispatch started
+2015-06-09 19:59:38,342 - INFO - rgx /customer$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,342 - INFO - rgx /city$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,342 - INFO - rgx /store$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,343 - INFO - rgx /country/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,343 - INFO - rgx /customer/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,343 - INFO - rgx /city/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,344 - INFO - rgx /address/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,344 - INFO - rgx /inventory/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,345 - INFO - rgx /film/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,345 - INFO - rgx /store/(\d+)$   path /rental/customerid/400   match None
+2015-06-09 19:59:38,345 - INFO - rgx /rental/customerid/(\d+)$   path /rental/customerid/400   match <_sre.SRE_Match object; span=(0, 22), match='/rental/customerid/400'>
+2015-06-09 19:59:38,629 - INFO - get
+2015-06-09 19:59:38,630 - INFO - [('/customer$', <function all_customers at 0x000000000172CC80>), ('/city$', <function all_cities at 0x000000000172CD08>), ('/store$', <function all_stores at 0x000000000172CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A378>), ('', <function no_match at 0x000000000172A400>)]
+2015-06-09 19:59:38,630 - INFO - dispatch started
+2015-06-09 19:59:38,630 - INFO - rgx /customer$   path /inventory/178   match None
+2015-06-09 19:59:38,630 - INFO - rgx /city$   path /inventory/178   match None
+2015-06-09 19:59:38,631 - INFO - rgx /store$   path /inventory/178   match None
+2015-06-09 19:59:38,631 - INFO - rgx /country/(\d+)$   path /inventory/178   match None
+2015-06-09 19:59:38,631 - INFO - rgx /customer/(\d+)$   path /inventory/178   match None
+2015-06-09 19:59:38,632 - INFO - rgx /city/(\d+)$   path /inventory/178   match None
+2015-06-09 19:59:38,632 - INFO - rgx /address/(\d+)$   path /inventory/178   match None
+2015-06-09 19:59:38,633 - INFO - rgx /inventory/(\d+)$   path /inventory/178   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/178'>
+2015-06-09 19:59:38,767 - INFO - get
+2015-06-09 19:59:38,768 - INFO - [('/customer$', <function all_customers at 0x000000000172CC80>), ('/city$', <function all_cities at 0x000000000172CD08>), ('/store$', <function all_stores at 0x000000000172CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A378>), ('', <function no_match at 0x000000000172A400>)]
+2015-06-09 19:59:38,768 - INFO - dispatch started
+2015-06-09 19:59:38,768 - INFO - rgx /customer$   path /film/39   match None
+2015-06-09 19:59:38,769 - INFO - rgx /city$   path /film/39   match None
+2015-06-09 19:59:38,769 - INFO - rgx /store$   path /film/39   match None
+2015-06-09 19:59:38,769 - INFO - rgx /country/(\d+)$   path /film/39   match None
+2015-06-09 19:59:38,770 - INFO - rgx /customer/(\d+)$   path /film/39   match None
+2015-06-09 19:59:38,770 - INFO - rgx /city/(\d+)$   path /film/39   match None
+2015-06-09 19:59:38,771 - INFO - rgx /address/(\d+)$   path /film/39   match None
+2015-06-09 19:59:38,771 - INFO - rgx /inventory/(\d+)$   path /film/39   match None
+2015-06-09 19:59:38,771 - INFO - rgx /film/(\d+)$   path /film/39   match <_sre.SRE_Match object; span=(0, 8), match='/film/39'>
+2015-06-09 19:59:38,935 - INFO - get
+2015-06-09 19:59:38,936 - INFO - [('/customer$', <function all_customers at 0x000000000171CC80>), ('/city$', <function all_cities at 0x000000000171CD08>), ('/store$', <function all_stores at 0x000000000171CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A378>), ('', <function no_match at 0x000000000171A400>)]
+2015-06-09 19:59:38,936 - INFO - dispatch started
+2015-06-09 19:59:38,936 - INFO - rgx /customer$   path /inventory/4483   match None
+2015-06-09 19:59:38,936 - INFO - rgx /city$   path /inventory/4483   match None
+2015-06-09 19:59:38,937 - INFO - rgx /store$   path /inventory/4483   match None
+2015-06-09 19:59:38,937 - INFO - rgx /country/(\d+)$   path /inventory/4483   match None
+2015-06-09 19:59:38,937 - INFO - rgx /customer/(\d+)$   path /inventory/4483   match None
+2015-06-09 19:59:38,938 - INFO - rgx /city/(\d+)$   path /inventory/4483   match None
+2015-06-09 19:59:38,938 - INFO - rgx /address/(\d+)$   path /inventory/4483   match None
+2015-06-09 19:59:38,939 - INFO - rgx /inventory/(\d+)$   path /inventory/4483   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4483'>
+2015-06-09 19:59:39,090 - INFO - get
+2015-06-09 19:59:39,090 - INFO - [('/customer$', <function all_customers at 0x00000000016FCC80>), ('/city$', <function all_cities at 0x00000000016FCD08>), ('/store$', <function all_stores at 0x00000000016FCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA378>), ('', <function no_match at 0x00000000016FA400>)]
+2015-06-09 19:59:39,091 - INFO - dispatch started
+2015-06-09 19:59:39,091 - INFO - rgx /customer$   path /film/979   match None
+2015-06-09 19:59:39,091 - INFO - rgx /city$   path /film/979   match None
+2015-06-09 19:59:39,091 - INFO - rgx /store$   path /film/979   match None
+2015-06-09 19:59:39,092 - INFO - rgx /country/(\d+)$   path /film/979   match None
+2015-06-09 19:59:39,092 - INFO - rgx /customer/(\d+)$   path /film/979   match None
+2015-06-09 19:59:39,093 - INFO - rgx /city/(\d+)$   path /film/979   match None
+2015-06-09 19:59:39,093 - INFO - rgx /address/(\d+)$   path /film/979   match None
+2015-06-09 19:59:39,093 - INFO - rgx /inventory/(\d+)$   path /film/979   match None
+2015-06-09 19:59:39,094 - INFO - rgx /film/(\d+)$   path /film/979   match <_sre.SRE_Match object; span=(0, 9), match='/film/979'>
+2015-06-09 19:59:39,211 - INFO - get
+2015-06-09 19:59:39,211 - INFO - [('/customer$', <function all_customers at 0x00000000016FCC80>), ('/city$', <function all_cities at 0x00000000016FCD08>), ('/store$', <function all_stores at 0x00000000016FCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA378>), ('', <function no_match at 0x00000000016FA400>)]
+2015-06-09 19:59:39,212 - INFO - dispatch started
+2015-06-09 19:59:39,212 - INFO - rgx /customer$   path /inventory/4357   match None
+2015-06-09 19:59:39,212 - INFO - rgx /city$   path /inventory/4357   match None
+2015-06-09 19:59:39,212 - INFO - rgx /store$   path /inventory/4357   match None
+2015-06-09 19:59:39,213 - INFO - rgx /country/(\d+)$   path /inventory/4357   match None
+2015-06-09 19:59:39,213 - INFO - rgx /customer/(\d+)$   path /inventory/4357   match None
+2015-06-09 19:59:39,214 - INFO - rgx /city/(\d+)$   path /inventory/4357   match None
+2015-06-09 19:59:39,214 - INFO - rgx /address/(\d+)$   path /inventory/4357   match None
+2015-06-09 19:59:39,214 - INFO - rgx /inventory/(\d+)$   path /inventory/4357   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4357'>
+2015-06-09 19:59:39,372 - INFO - get
+2015-06-09 19:59:39,372 - INFO - [('/customer$', <function all_customers at 0x00000000016FCC80>), ('/city$', <function all_cities at 0x00000000016FCD08>), ('/store$', <function all_stores at 0x00000000016FCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA378>), ('', <function no_match at 0x00000000016FA400>)]
+2015-06-09 19:59:39,372 - INFO - dispatch started
+2015-06-09 19:59:39,373 - INFO - rgx /customer$   path /film/949   match None
+2015-06-09 19:59:39,373 - INFO - rgx /city$   path /film/949   match None
+2015-06-09 19:59:39,373 - INFO - rgx /store$   path /film/949   match None
+2015-06-09 19:59:39,374 - INFO - rgx /country/(\d+)$   path /film/949   match None
+2015-06-09 19:59:39,374 - INFO - rgx /customer/(\d+)$   path /film/949   match None
+2015-06-09 19:59:39,375 - INFO - rgx /city/(\d+)$   path /film/949   match None
+2015-06-09 19:59:39,375 - INFO - rgx /address/(\d+)$   path /film/949   match None
+2015-06-09 19:59:39,375 - INFO - rgx /inventory/(\d+)$   path /film/949   match None
+2015-06-09 19:59:39,376 - INFO - rgx /film/(\d+)$   path /film/949   match <_sre.SRE_Match object; span=(0, 9), match='/film/949'>
+2015-06-09 19:59:39,498 - INFO - get
+2015-06-09 19:59:39,499 - INFO - [('/customer$', <function all_customers at 0x00000000016ECC80>), ('/city$', <function all_cities at 0x00000000016ECD08>), ('/store$', <function all_stores at 0x00000000016ECD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016ECEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016ECE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016ECF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016EA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016EA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016EA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016EA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016EA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016EA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016EA378>), ('', <function no_match at 0x00000000016EA400>)]
+2015-06-09 19:59:39,499 - INFO - dispatch started
+2015-06-09 19:59:39,499 - INFO - rgx /customer$   path /inventory/1118   match None
+2015-06-09 19:59:39,500 - INFO - rgx /city$   path /inventory/1118   match None
+2015-06-09 19:59:39,500 - INFO - rgx /store$   path /inventory/1118   match None
+2015-06-09 19:59:39,500 - INFO - rgx /country/(\d+)$   path /inventory/1118   match None
+2015-06-09 19:59:39,501 - INFO - rgx /customer/(\d+)$   path /inventory/1118   match None
+2015-06-09 19:59:39,501 - INFO - rgx /city/(\d+)$   path /inventory/1118   match None
+2015-06-09 19:59:39,502 - INFO - rgx /address/(\d+)$   path /inventory/1118   match None
+2015-06-09 19:59:39,502 - INFO - rgx /inventory/(\d+)$   path /inventory/1118   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/1118'>
+2015-06-09 19:59:39,651 - INFO - get
+2015-06-09 19:59:39,652 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:39,652 - INFO - dispatch started
+2015-06-09 19:59:39,652 - INFO - rgx /customer$   path /film/247   match None
+2015-06-09 19:59:39,653 - INFO - rgx /city$   path /film/247   match None
+2015-06-09 19:59:39,653 - INFO - rgx /store$   path /film/247   match None
+2015-06-09 19:59:39,653 - INFO - rgx /country/(\d+)$   path /film/247   match None
+2015-06-09 19:59:39,654 - INFO - rgx /customer/(\d+)$   path /film/247   match None
+2015-06-09 19:59:39,654 - INFO - rgx /city/(\d+)$   path /film/247   match None
+2015-06-09 19:59:39,654 - INFO - rgx /address/(\d+)$   path /film/247   match None
+2015-06-09 19:59:39,655 - INFO - rgx /inventory/(\d+)$   path /film/247   match None
+2015-06-09 19:59:39,655 - INFO - rgx /film/(\d+)$   path /film/247   match <_sre.SRE_Match object; span=(0, 9), match='/film/247'>
+2015-06-09 19:59:39,781 - INFO - get
+2015-06-09 19:59:39,781 - INFO - [('/customer$', <function all_customers at 0x000000000171CC80>), ('/city$', <function all_cities at 0x000000000171CD08>), ('/store$', <function all_stores at 0x000000000171CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A378>), ('', <function no_match at 0x000000000171A400>)]
+2015-06-09 19:59:39,782 - INFO - dispatch started
+2015-06-09 19:59:39,782 - INFO - rgx /customer$   path /inventory/115   match None
+2015-06-09 19:59:39,782 - INFO - rgx /city$   path /inventory/115   match None
+2015-06-09 19:59:39,782 - INFO - rgx /store$   path /inventory/115   match None
+2015-06-09 19:59:39,783 - INFO - rgx /country/(\d+)$   path /inventory/115   match None
+2015-06-09 19:59:39,783 - INFO - rgx /customer/(\d+)$   path /inventory/115   match None
+2015-06-09 19:59:39,784 - INFO - rgx /city/(\d+)$   path /inventory/115   match None
+2015-06-09 19:59:39,784 - INFO - rgx /address/(\d+)$   path /inventory/115   match None
+2015-06-09 19:59:39,785 - INFO - rgx /inventory/(\d+)$   path /inventory/115   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/115'>
+2015-06-09 19:59:39,926 - INFO - get
+2015-06-09 19:59:39,926 - INFO - [('/customer$', <function all_customers at 0x00000000016CCC80>), ('/city$', <function all_cities at 0x00000000016CCD08>), ('/store$', <function all_stores at 0x00000000016CCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016CCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016CCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016CCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016CA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016CA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016CA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016CA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016CA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016CA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016CA378>), ('', <function no_match at 0x00000000016CA400>)]
+2015-06-09 19:59:39,926 - INFO - dispatch started
+2015-06-09 19:59:39,926 - INFO - rgx /customer$   path /film/23   match None
+2015-06-09 19:59:39,927 - INFO - rgx /city$   path /film/23   match None
+2015-06-09 19:59:39,927 - INFO - rgx /store$   path /film/23   match None
+2015-06-09 19:59:39,927 - INFO - rgx /country/(\d+)$   path /film/23   match None
+2015-06-09 19:59:39,928 - INFO - rgx /customer/(\d+)$   path /film/23   match None
+2015-06-09 19:59:39,928 - INFO - rgx /city/(\d+)$   path /film/23   match None
+2015-06-09 19:59:39,929 - INFO - rgx /address/(\d+)$   path /film/23   match None
+2015-06-09 19:59:39,929 - INFO - rgx /inventory/(\d+)$   path /film/23   match None
+2015-06-09 19:59:39,929 - INFO - rgx /film/(\d+)$   path /film/23   match <_sre.SRE_Match object; span=(0, 8), match='/film/23'>
+2015-06-09 19:59:40,054 - INFO - get
+2015-06-09 19:59:40,054 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:40,054 - INFO - dispatch started
+2015-06-09 19:59:40,055 - INFO - rgx /customer$   path /inventory/2667   match None
+2015-06-09 19:59:40,055 - INFO - rgx /city$   path /inventory/2667   match None
+2015-06-09 19:59:40,055 - INFO - rgx /store$   path /inventory/2667   match None
+2015-06-09 19:59:40,056 - INFO - rgx /country/(\d+)$   path /inventory/2667   match None
+2015-06-09 19:59:40,056 - INFO - rgx /customer/(\d+)$   path /inventory/2667   match None
+2015-06-09 19:59:40,057 - INFO - rgx /city/(\d+)$   path /inventory/2667   match None
+2015-06-09 19:59:40,057 - INFO - rgx /address/(\d+)$   path /inventory/2667   match None
+2015-06-09 19:59:40,058 - INFO - rgx /inventory/(\d+)$   path /inventory/2667   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2667'>
+2015-06-09 19:59:40,212 - INFO - get
+2015-06-09 19:59:40,213 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:40,213 - INFO - dispatch started
+2015-06-09 19:59:40,213 - INFO - rgx /customer$   path /film/586   match None
+2015-06-09 19:59:40,213 - INFO - rgx /city$   path /film/586   match None
+2015-06-09 19:59:40,214 - INFO - rgx /store$   path /film/586   match None
+2015-06-09 19:59:40,214 - INFO - rgx /country/(\d+)$   path /film/586   match None
+2015-06-09 19:59:40,214 - INFO - rgx /customer/(\d+)$   path /film/586   match None
+2015-06-09 19:59:40,215 - INFO - rgx /city/(\d+)$   path /film/586   match None
+2015-06-09 19:59:40,215 - INFO - rgx /address/(\d+)$   path /film/586   match None
+2015-06-09 19:59:40,215 - INFO - rgx /inventory/(\d+)$   path /film/586   match None
+2015-06-09 19:59:40,216 - INFO - rgx /film/(\d+)$   path /film/586   match <_sre.SRE_Match object; span=(0, 9), match='/film/586'>
+2015-06-09 19:59:40,336 - INFO - get
+2015-06-09 19:59:40,336 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:40,336 - INFO - dispatch started
+2015-06-09 19:59:40,337 - INFO - rgx /customer$   path /inventory/691   match None
+2015-06-09 19:59:40,337 - INFO - rgx /city$   path /inventory/691   match None
+2015-06-09 19:59:40,337 - INFO - rgx /store$   path /inventory/691   match None
+2015-06-09 19:59:40,338 - INFO - rgx /country/(\d+)$   path /inventory/691   match None
+2015-06-09 19:59:40,338 - INFO - rgx /customer/(\d+)$   path /inventory/691   match None
+2015-06-09 19:59:40,338 - INFO - rgx /city/(\d+)$   path /inventory/691   match None
+2015-06-09 19:59:40,339 - INFO - rgx /address/(\d+)$   path /inventory/691   match None
+2015-06-09 19:59:40,339 - INFO - rgx /inventory/(\d+)$   path /inventory/691   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/691'>
+2015-06-09 19:59:40,484 - INFO - get
+2015-06-09 19:59:40,485 - INFO - [('/customer$', <function all_customers at 0x00000000016FCC80>), ('/city$', <function all_cities at 0x00000000016FCD08>), ('/store$', <function all_stores at 0x00000000016FCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA378>), ('', <function no_match at 0x00000000016FA400>)]
+2015-06-09 19:59:40,485 - INFO - dispatch started
+2015-06-09 19:59:40,485 - INFO - rgx /customer$   path /film/151   match None
+2015-06-09 19:59:40,486 - INFO - rgx /city$   path /film/151   match None
+2015-06-09 19:59:40,486 - INFO - rgx /store$   path /film/151   match None
+2015-06-09 19:59:40,486 - INFO - rgx /country/(\d+)$   path /film/151   match None
+2015-06-09 19:59:40,487 - INFO - rgx /customer/(\d+)$   path /film/151   match None
+2015-06-09 19:59:40,487 - INFO - rgx /city/(\d+)$   path /film/151   match None
+2015-06-09 19:59:40,488 - INFO - rgx /address/(\d+)$   path /film/151   match None
+2015-06-09 19:59:40,488 - INFO - rgx /inventory/(\d+)$   path /film/151   match None
+2015-06-09 19:59:40,488 - INFO - rgx /film/(\d+)$   path /film/151   match <_sre.SRE_Match object; span=(0, 9), match='/film/151'>
+2015-06-09 19:59:40,646 - INFO - get
+2015-06-09 19:59:40,646 - INFO - [('/customer$', <function all_customers at 0x000000000171CC80>), ('/city$', <function all_cities at 0x000000000171CD08>), ('/store$', <function all_stores at 0x000000000171CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A378>), ('', <function no_match at 0x000000000171A400>)]
+2015-06-09 19:59:40,646 - INFO - dispatch started
+2015-06-09 19:59:40,647 - INFO - rgx /customer$   path /inventory/2478   match None
+2015-06-09 19:59:40,647 - INFO - rgx /city$   path /inventory/2478   match None
+2015-06-09 19:59:40,647 - INFO - rgx /store$   path /inventory/2478   match None
+2015-06-09 19:59:40,648 - INFO - rgx /country/(\d+)$   path /inventory/2478   match None
+2015-06-09 19:59:40,648 - INFO - rgx /customer/(\d+)$   path /inventory/2478   match None
+2015-06-09 19:59:40,648 - INFO - rgx /city/(\d+)$   path /inventory/2478   match None
+2015-06-09 19:59:40,649 - INFO - rgx /address/(\d+)$   path /inventory/2478   match None
+2015-06-09 19:59:40,649 - INFO - rgx /inventory/(\d+)$   path /inventory/2478   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2478'>
+2015-06-09 19:59:40,806 - INFO - get
+2015-06-09 19:59:40,806 - INFO - [('/customer$', <function all_customers at 0x000000000170CC80>), ('/city$', <function all_cities at 0x000000000170CD08>), ('/store$', <function all_stores at 0x000000000170CD90>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CE18>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CF28>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170A048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A0D0>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A158>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A378>), ('', <function no_match at 0x000000000170A400>)]
+2015-06-09 19:59:40,806 - INFO - dispatch started
+2015-06-09 19:59:40,807 - INFO - rgx /customer$   path /film/543   match None
+2015-06-09 19:59:40,807 - INFO - rgx /city$   path /film/543   match None
+2015-06-09 19:59:40,807 - INFO - rgx /store$   path /film/543   match None
+2015-06-09 19:59:40,808 - INFO - rgx /country/(\d+)$   path /film/543   match None
+2015-06-09 19:59:40,808 - INFO - rgx /customer/(\d+)$   path /film/543   match None
+2015-06-09 19:59:40,808 - INFO - rgx /city/(\d+)$   path /film/543   match None
+2015-06-09 19:59:40,809 - INFO - rgx /address/(\d+)$   path /film/543   match None
+2015-06-09 19:59:40,809 - INFO - rgx /inventory/(\d+)$   path /film/543   match None
+2015-06-09 19:59:40,810 - INFO - rgx /film/(\d+)$   path /film/543   match <_sre.SRE_Match object; span=(0, 9), match='/film/543'>
+2015-06-09 19:59:40,943 - INFO - get
+2015-06-09 19:59:40,944 - INFO - [('/customer$', <function all_customers at 0x00000000016CCC80>), ('/city$', <function all_cities at 0x00000000016CCD08>), ('/store$', <function all_stores at 0x00000000016CCD90>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016CCEA0>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016CCE18>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016CCF28>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016CA048>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016CA0D0>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016CA158>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016CA1E0>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016CA268>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016CA2F0>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016CA378>), ('', <function no_match at 0x00000000016CA400>)]
+2015-06-09 19:59:40,944 - INFO - dispatch started
+2015-06-09 19:59:40,944 - INFO - rgx /customer$   path /inventory/687   match None
+2015-06-09 19:59:40,944 - INFO - rgx /city$   path /inventory/687   match None
+2015-06-09 19:59:40,945 - INFO - rgx /store$   path /inventory/687   match None
+2015-06-09 19:59:40,945 - INFO - rgx /country/(\d+)$   path /inventory/687   match None
+2015-06-09 19:59:40,946 - INFO - rgx /customer/(\d+)$   path /inventory/687   match None
+2015-06-09 19:59:40,946 - INFO - rgx /city/(\d+)$   path /inventory/687   match None
+2015-06-09 19:59:40,946 - INFO - rgx /address/(\d+)$   path /inventory/687   match None
+2015-06-09 19:59:40,947 - INFO - rgx /inventory/(\d+)$   path /inventory/687   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/687'>

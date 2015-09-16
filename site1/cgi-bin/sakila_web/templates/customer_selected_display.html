@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Select Customer</title>
+    <link href="/style1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Customer {{ cust_info.first_name|capitalize }} {{ cust_info.last_name|capitalize }}</h1>
+    <!--{{ cust_info }}-->
+
+    <table >
+        <tbody>
+            <tr><td>ID</td><td>{{ cust_info.customer_id }}</td></tr>
+            <tr>
+                <td>Email</td>
+                <td>{{ cust_info.email }}</td>
+            </tr>
+            <tr>
+                <td>Entry created</td>
+                <td>{{ cust_info.create_date }}</td>
+            </tr>
+            <tr><td>Last updated</td><td>{{ cust_info.last_update }}</td></tr>
+            <tr><td>Address</td>
+                <td>
+                    {% if address_info %}
+                        <!--{{ address_info }}-->
+                        <table>
+                            <tr><td>{{ address_info.address }}</td></tr>
+                            {% if address_info.address2 %}
+                                <tr><td>address_info.address2</td></tr>
+                            {% endif %}
+                            <tr><td>{{ city_info.city }}, {{ address_info.district }}
+                                    {{ country_info.country }} {{ address_info.postal_code }}
+                            </td></tr>
+                        </table>
+                    {% else %}
+                        No address information available
+                    {% endif %}
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    {% if payment_info %}
+        <h2>Payments Made</h2>
+        <table class="grid">
+            <thead>
+                <tr><th>Data</th><th>Amount</th></tr>
+            </thead>
+            <tbody>
+                {% for pmt in payment_info %}
+                    <tr>
+                        <td>{{ pmt.payment_date|dateformat }}</td>
+                        <td class="numeric">{{ "%.2f"|format(pmt.amount) }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            {% if payment_total %}
+                <tfoot>
+                    <tr><td><strong>Total</strong></td><td class="numeric">{{ "%.2f"|format(payment_total) }}</td></tr>
+                </tfoot>
+            {% endif %}
+        </table>
+    {% else %}
+        <h2>No payments made</h2>
+    {% endif %}
+        <h2>Rentals</h2>
+        <table class="grid">
+            <thead>
+                <tr><th>Title</th><th>Rental Date</th><th>Return Date</th></tr>
+            </thead>
+            <tbody>
+                {% for rental in rental_info %}
+                    <tr>
+                        <td>{{ rental.title }}</td>
+                        <td>{{ rental.rental_date|dateformat }}</td>
+                        <td>{{ rental.return_date|dateformat }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% if rental_info %}
+    {% else %}
+        <h2>No rentals</h2>
+    {% endif %}
+</body>
+</html>

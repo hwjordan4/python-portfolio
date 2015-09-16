@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Select Customer</title>
+    <link href="/style1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Select a Customer</h1>
+    <form method="get" action="customer_selected_list.py">
+        <div class="data-grid">
+            {% for cust in customers %}
+                <div>
+                    <span>{{ cust.last_name|capitalize }}, {{ cust.first_name|capitalize }}</span>
+                    <span><input type="radio" name="customer_id" value="{{ cust.customer_id }}"/></span>
+                </div>
+
+            {% endfor %}
+        </div>
+    </form>
+</body>
+</html>

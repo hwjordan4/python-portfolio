@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>New Address Entry</title>
+    <link rel="stylesheet" href="/style1.css" type="text/css"/>
+</head>
+<body>
+    <h1>Enter Information for New Address</h1>
+    <form method="post" action="/cgi-bin/sakila_web/address_create.py">
+        <div class="data-grid">
+            <div><span>Address</span>
+                <span><input name="address"/></span>
+            </div>
+            <div><span>Address (optional)</span>
+                <span><input name="address2"/></span>
+            </div>
+            <div><span>District </span>
+                <span><input name="district"/></span>
+            </div>
+            <div><span>Postal code (Optional)</span>
+                <span><input name="postalcode"/></span>
+            </div>
+            <div><span>Phone</span>
+                <span><input name="phone"/></span>
+            </div>
+            <div><span>City</span>
+                <span>
+                    <select name="city">
+                    {% for city in cities %}
+                        <option value="{{ city.city_id }}">{{ city.city }}, {{ city.country }}</option>
+                    {% endfor %}
+                    </select>
+                </span>
+            </div>
+        </div>
+        <input type="submit" value="Create Address"/>
+    </form>
+</body>
+</html>

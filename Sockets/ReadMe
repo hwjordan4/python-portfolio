@@ -1,0 +1,14 @@
+Harrison Jordan
+Assignment 2
+09/11/2015
+CS 4720 - Fall 15
+Ben Setzer
+
+Usage:  Run Server1.py first
+        Run Client.py next
+
+Notes:
+The server will not crash if invalid information given by a client.
+The client will not be able to connect if no localhost server is running.
+Localhost ip address (127.0.0.1)
+Port Number (12321)

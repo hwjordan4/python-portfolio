@@ -1,0 +1,502 @@
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FFBF8>), ('/city$', <function all_cities at 0x00000000016FFC80>), ('/store$', <function all_stores at 0x00000000016FFD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FFE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FFD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FFEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FFF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FD048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FD0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FD158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FD1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FD268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FD2F0>), ('', <function no_match at 0x00000000016FD378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /customer/400   match None
+INFO:root:rgx /city$   path /customer/400   match None
+INFO:root:rgx /store$   path /customer/400   match None
+INFO:root:rgx /country/(\d+)$   path /customer/400   match None
+INFO:root:rgx /customer/(\d+)$   path /customer/400   match <_sre.SRE_Match object; span=(0, 13), match='/customer/400'>
+DEBUG:root:{'customer_id': 400, 'first_name': 'BRYAN', 'email': 'BRYAN.HARDISON@sakilacustomer.org', 'store_id': 2, 'last_name': 'HARDISON', 'create_date': '2006-02-14 22:04:37.000', 'address_id': 405, 'active': '1', 'last_update': '2011-09-14 18:10:39'}
+DEBUG:root:custJ {"customer_id": 400, "first_name": "BRYAN", "email": "BRYAN.HARDISON@sakilacustomer.org", "store_id": 2, "last_name": "HARDISON", "create_date": "2006-02-14 22:04:37.000", "address_id": 405, "active": "1", "last_update": "2011-09-14 18:10:39"}
+DEBUG:root:len 243
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000176CBF8>), ('/city$', <function all_cities at 0x000000000176CC80>), ('/store$', <function all_stores at 0x000000000176CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000176CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000176CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000176CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000176CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000176A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000176A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000176A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000176A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000176A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000176A2F0>), ('', <function no_match at 0x000000000176A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /address/405   match None
+INFO:root:rgx /city$   path /address/405   match None
+INFO:root:rgx /store$   path /address/405   match None
+INFO:root:rgx /country/(\d+)$   path /address/405   match None
+INFO:root:rgx /customer/(\d+)$   path /address/405   match None
+INFO:root:rgx /city/(\d+)$   path /address/405   match None
+INFO:root:rgx /address/(\d+)$   path /address/405   match <_sre.SRE_Match object; span=(0, 12), match='/address/405'>
+DEBUG:root:{'district': ' ', 'postal_code': '11067', 'last_update': '2011-09-14 18:05:24', 'city_id': 135, 'address2': None, 'phone': ' ', 'address_id': 405, 'address': '530 Lausanne Lane'}
+DEBUG:root:custJ {"district": " ", "postal_code": "11067", "last_update": "2011-09-14 18:05:24", "city_id": 135, "address2": null, "phone": " ", "address_id": 405, "address": "530 Lausanne Lane"}
+DEBUG:root:len 178
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016DCBF8>), ('/city$', <function all_cities at 0x00000000016DCC80>), ('/store$', <function all_stores at 0x00000000016DCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016DCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016DCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016DCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016DCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016DA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016DA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016DA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016DA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016DA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016DA2F0>), ('', <function no_match at 0x00000000016DA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /city/135   match None
+INFO:root:rgx /city$   path /city/135   match None
+INFO:root:rgx /store$   path /city/135   match None
+INFO:root:rgx /country/(\d+)$   path /city/135   match None
+INFO:root:rgx /customer/(\d+)$   path /city/135   match None
+INFO:root:rgx /city/(\d+)$   path /city/135   match <_sre.SRE_Match object; span=(0, 9), match='/city/135'>
+DEBUG:root:{'country_name': 'United States', 'city': 'Dallas', 'city_id': 135, 'last_update': '2011-09-14 18:05:06', 'country_id': 103}
+DEBUG:root:custJ {"country_name": "United States", "city": "Dallas", "city_id": 135, "last_update": "2011-09-14 18:05:06", "country_id": 103}
+DEBUG:root:len 124
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000170CBF8>), ('/city$', <function all_cities at 0x000000000170CC80>), ('/store$', <function all_stores at 0x000000000170CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A2F0>), ('', <function no_match at 0x000000000170A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /country/103   match None
+INFO:root:rgx /city$   path /country/103   match None
+INFO:root:rgx /store$   path /country/103   match None
+INFO:root:rgx /country/(\d+)$   path /country/103   match <_sre.SRE_Match object; span=(0, 12), match='/country/103'>
+DEBUG:root:{'last_update': '2011-09-14 18:05:03', 'country': 'United States', 'country_id': 103}
+DEBUG:root:custJ {"last_update": "2011-09-14 18:05:03", "country": "United States", "country_id": 103}
+DEBUG:root:len 85
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /rental/customerid/400   match None
+INFO:root:rgx /city$   path /rental/customerid/400   match None
+INFO:root:rgx /store$   path /rental/customerid/400   match None
+INFO:root:rgx /country/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /customer/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /city/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /address/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /inventory/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /film/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /store/(\d+)$   path /rental/customerid/400   match None
+INFO:root:rgx /rental/customerid/(\d+)$   path /rental/customerid/400   match <_sre.SRE_Match object; span=(0, 22), match='/rental/customerid/400'>
+DEBUG:root:[{'rental_id': 95, 'inventory_id': 178, 'return_date': '2005-06-02 18:55:52.000', 'customer_id': 400, 'last_update': '2011-09-14 18:10:47', 'staff_id': 2, 'rental_date': '2005-05-25 16:12:52.000'}, {'rental_id': 171, 'inventory_id': 4483, 'return_date': '2005-06-03 00:24:15.000', 'customer_id': 400, 'last_update': '2011-09-14 18:10:49', 'staff_id': 2, 'rental_date': '2005-05-26 03:14:15.000'}, {'rental_id': 516, 'inventory_id': 4357, 'return_date': '2005-06-04 02:19:47.000', 'customer_id': 400, 'last_update': '2011-09-14 18:10:58', 'staff_id': 1, 'rental_date': '2005-05-28 03:11:47.000'}, {'rental_id': 894, 'inventory_id': 1118, 'return_date': '2005-06-07 12:39:31.000', 'customer_id': 400, 'last_update': '2011-09-14 18:11:10', 'staff_id': 1, 'rental_date': '2005-05-30 08:31:31.000'}, {'rental_id': 1364, 'inventory_id': 115, 'return_date': '2005-06-16 15:31:32.000', 'customer_id': 400, 'last_update': '2011-09-14 18:11:24', 'staff_id': 1, 'rental_date': '2005-06-15 14:05:32.000'}, {'rental_id': 1917, 'inventory_id': 2667, 'return_date': '2005-06-24 01:44:07.000', 'customer_id': 400, 'last_update': '2011-09-14 18:12:14', 'staff_id': 1, 'rental_date': '2005-06-17 05:36:07.000'}, {'rental_id': 1923, 'inventory_id': 691, 'return_date': '2005-06-24 04:29:10.000', 'customer_id': 400, 'last_update': '2011-09-14 18:12:14', 'staff_id': 2, 'rental_date': '2005-06-17 06:06:10.000'}, {'rental_id': 4573, 'inventory_id': 2478, 'return_date': '2005-07-15 07:07:46.000', 'customer_id': 400, 'last_update': '2011-09-14 18:15:17', 'staff_id': 1, 'rental_date': '2005-07-08 05:38:46.000'}, {'rental_id': 4645, 'inventory_id': 687, 'return_date': '2005-07-09 06:07:09.000', 'customer_id': 400, 'last_update': '2011-09-14 18:15:20', 'staff_id': 2, 'rental_date': '2005-07-08 09:20:09.000'}, {'rental_id': 5212, 'inventory_id': 3240, 'return_date': '2005-07-15 14:42:47.000', 'customer_id': 400, 'last_update': '2011-09-14 18:15:45', 'staff_id': 1, 'rental_date': '2005-07-09 11:37:47.000'}, {'rental_id': 5222, 'inventory_id': 2508, 'return_date': '2005-07-13 12:11:45.000', 'customer_id': 400, 'last_update': '2011-09-14 18:15:46', 'staff_id': 1, 'rental_date': '2005-07-09 12:05:45.000'}, {'rental_id': 6790, 'inventory_id': 4486, 'return_date': '2005-07-17 21:43:59.000', 'customer_id': 400, 'last_update': '2011-09-14 18:16:56', 'staff_id': 2, 'rental_date': '2005-07-12 16:34:59.000'}, {'rental_id': 6994, 'inventory_id': 4316, 'return_date': '2005-08-04 22:58:26.000', 'customer_id': 400, 'last_update': '2011-09-14 18:17:15', 'staff_id': 2, 'rental_date': '2005-07-27 01:08:26.000'}, {'rental_id': 7296, 'inventory_id': 1681, 'return_date': '2005-08-04 18:24:48.000', 'customer_id': 400, 'last_update': '2011-09-14 18:17:36', 'staff_id': 2, 'rental_date': '2005-07-27 12:39:48.000'}, {'rental_id': 7682, 'inventory_id': 3296, 'return_date': '2005-08-04 08:48:29.000', 'customer_id': 400, 'last_update': '2011-09-14 18:17:53', 'staff_id': 2, 'rental_date': '2005-07-28 03:07:29.000'}, {'rental_id': 9177, 'inventory_id': 1088, 'return_date': '2005-08-08 09:35:40.000', 'customer_id': 400, 'last_update': '2011-09-14 18:19:09', 'staff_id': 1, 'rental_date': '2005-07-30 11:52:40.000'}, {'rental_id': 9756, 'inventory_id': 207, 'return_date': '2005-08-02 05:11:00.000', 'customer_id': 400, 'last_update': '2011-09-14 18:19:45', 'staff_id': 1, 'rental_date': '2005-07-31 09:25:00.000'}, {'rental_id': 10187, 'inventory_id': 1629, 'return_date': '2005-08-05 01:00:49.000', 'customer_id': 400, 'last_update': '2011-09-14 18:20:04', 'staff_id': 2, 'rental_date': '2005-08-01 00:15:49.000'}, {'rental_id': 10484, 'inventory_id': 1908, 'return_date': '2005-08-03 05:36:53.000', 'customer_id': 400, 'last_update': '2011-09-14 18:20:17', 'staff_id': 1, 'rental_date': '2005-08-01 10:19:53.000'}, {'rental_id': 10711, 'inventory_id': 4278, 'return_date': '2005-08-02 19:47:09.000', 'customer_id': 400, 'last_update': '2011-09-14 18:20:27', 'staff_id': 2, 'rental_date': '2005-08-01 18:45:09.000'}, {'rental_id': 11510, 'inventory_id': 2997, 'return_date': '2005-08-25 17:35:07.000', 'customer_id': 400, 'last_update': '2011-09-14 18:20:59', 'staff_id': 1, 'rental_date': '2005-08-16 23:30:07.000'}, {'rental_id': 11530, 'inventory_id': 365, 'return_date': '2005-08-22 03:22:00.000', 'customer_id': 400, 'last_update': '2011-09-14 18:21:00', 'staff_id': 1, 'rental_date': '2005-08-17 00:29:00.000'}, {'rental_id': 11600, 'inventory_id': 1978, 'return_date': '2005-08-23 07:10:04.000', 'customer_id': 400, 'last_update': '2011-09-14 18:21:02', 'staff_id': 1, 'rental_date': '2005-08-17 03:12:04.000'}, {'rental_id': 12514, 'inventory_id': 3310, 'return_date': '2005-08-23 12:50:55.000', 'customer_id': 400, 'last_update': '2011-09-14 18:21:42', 'staff_id': 2, 'rental_date': '2005-08-18 13:33:55.000'}, {'rental_id': 13449, 'inventory_id': 1297, 'return_date': '2005-08-23 20:42:01.000', 'customer_id': 400, 'last_update': '2011-09-14 18:22:26', 'staff_id': 2, 'rental_date': '2005-08-20 00:17:01.000'}, {'rental_id': 14775, 'inventory_id': 4044, 'return_date': '2005-08-22 18:07:07.000', 'customer_id': 400, 'last_update': '2011-09-14 18:23:31', 'staff_id': 2, 'rental_date': '2005-08-21 23:53:07.000'}, {'rental_id': 15533, 'inventory_id': 1895, 'return_date': '2005-08-26 08:27:39.000', 'customer_id': 400, 'last_update': '2011-09-14 18:24:14', 'staff_id': 2, 'rental_date': '2005-08-23 03:54:39.000'}, {'rental_id': 15988, 'inventory_id': 3932, 'return_date': '2005-08-28 20:50:08.000', 'customer_id': 400, 'last_update': '2011-09-14 18:24:36', 'staff_id': 1, 'rental_date': '2005-08-23 20:23:08.000'}]
+DEBUG:root:custJ [{"rental_id": 95, "inventory_id": 178, "return_date": "2005-06-02 18:55:52.000", "customer_id": 400, "last_update": "2011-09-14 18:10:47", "staff_id": 2, "rental_date": "2005-05-25 16:12:52.000"}, {"rental_id": 171, "inventory_id": 4483, "return_date": "2005-06-03 00:24:15.000", "customer_id": 400, "last_update": "2011-09-14 18:10:49", "staff_id": 2, "rental_date": "2005-05-26 03:14:15.000"}, {"rental_id": 516, "inventory_id": 4357, "return_date": "2005-06-04 02:19:47.000", "customer_id": 400, "last_update": "2011-09-14 18:10:58", "staff_id": 1, "rental_date": "2005-05-28 03:11:47.000"}, {"rental_id": 894, "inventory_id": 1118, "return_date": "2005-06-07 12:39:31.000", "customer_id": 400, "last_update": "2011-09-14 18:11:10", "staff_id": 1, "rental_date": "2005-05-30 08:31:31.000"}, {"rental_id": 1364, "inventory_id": 115, "return_date": "2005-06-16 15:31:32.000", "customer_id": 400, "last_update": "2011-09-14 18:11:24", "staff_id": 1, "rental_date": "2005-06-15 14:05:32.000"}, {"rental_id": 1917, "inventory_id": 2667, "return_date": "2005-06-24 01:44:07.000", "customer_id": 400, "last_update": "2011-09-14 18:12:14", "staff_id": 1, "rental_date": "2005-06-17 05:36:07.000"}, {"rental_id": 1923, "inventory_id": 691, "return_date": "2005-06-24 04:29:10.000", "customer_id": 400, "last_update": "2011-09-14 18:12:14", "staff_id": 2, "rental_date": "2005-06-17 06:06:10.000"}, {"rental_id": 4573, "inventory_id": 2478, "return_date": "2005-07-15 07:07:46.000", "customer_id": 400, "last_update": "2011-09-14 18:15:17", "staff_id": 1, "rental_date": "2005-07-08 05:38:46.000"}, {"rental_id": 4645, "inventory_id": 687, "return_date": "2005-07-09 06:07:09.000", "customer_id": 400, "last_update": "2011-09-14 18:15:20", "staff_id": 2, "rental_date": "2005-07-08 09:20:09.000"}, {"rental_id": 5212, "inventory_id": 3240, "return_date": "2005-07-15 14:42:47.000", "customer_id": 400, "last_update": "2011-09-14 18:15:45", "staff_id": 1, "rental_date": "2005-07-09 11:37:47.000"}, {"rental_id": 5222, "inventory_id": 2508, "return_date": "2005-07-13 12:11:45.000", "customer_id": 400, "last_update": "2011-09-14 18:15:46", "staff_id": 1, "rental_date": "2005-07-09 12:05:45.000"}, {"rental_id": 6790, "inventory_id": 4486, "return_date": "2005-07-17 21:43:59.000", "customer_id": 400, "last_update": "2011-09-14 18:16:56", "staff_id": 2, "rental_date": "2005-07-12 16:34:59.000"}, {"rental_id": 6994, "inventory_id": 4316, "return_date": "2005-08-04 22:58:26.000", "customer_id": 400, "last_update": "2011-09-14 18:17:15", "staff_id": 2, "rental_date": "2005-07-27 01:08:26.000"}, {"rental_id": 7296, "inventory_id": 1681, "return_date": "2005-08-04 18:24:48.000", "customer_id": 400, "last_update": "2011-09-14 18:17:36", "staff_id": 2, "rental_date": "2005-07-27 12:39:48.000"}, {"rental_id": 7682, "inventory_id": 3296, "return_date": "2005-08-04 08:48:29.000", "customer_id": 400, "last_update": "2011-09-14 18:17:53", "staff_id": 2, "rental_date": "2005-07-28 03:07:29.000"}, {"rental_id": 9177, "inventory_id": 1088, "return_date": "2005-08-08 09:35:40.000", "customer_id": 400, "last_update": "2011-09-14 18:19:09", "staff_id": 1, "rental_date": "2005-07-30 11:52:40.000"}, {"rental_id": 9756, "inventory_id": 207, "return_date": "2005-08-02 05:11:00.000", "customer_id": 400, "last_update": "2011-09-14 18:19:45", "staff_id": 1, "rental_date": "2005-07-31 09:25:00.000"}, {"rental_id": 10187, "inventory_id": 1629, "return_date": "2005-08-05 01:00:49.000", "customer_id": 400, "last_update": "2011-09-14 18:20:04", "staff_id": 2, "rental_date": "2005-08-01 00:15:49.000"}, {"rental_id": 10484, "inventory_id": 1908, "return_date": "2005-08-03 05:36:53.000", "customer_id": 400, "last_update": "2011-09-14 18:20:17", "staff_id": 1, "rental_date": "2005-08-01 10:19:53.000"}, {"rental_id": 10711, "inventory_id": 4278, "return_date": "2005-08-02 19:47:09.000", "customer_id": 400, "last_update": "2011-09-14 18:20:27", "staff_id": 2, "rental_date": "2005-08-01 18:45:09.000"}, {"rental_id": 11510, "inventory_id": 2997, "return_date": "2005-08-25 17:35:07.000", "customer_id": 400, "last_update": "2011-09-14 18:20:59", "staff_id": 1, "rental_date": "2005-08-16 23:30:07.000"}, {"rental_id": 11530, "inventory_id": 365, "return_date": "2005-08-22 03:22:00.000", "customer_id": 400, "last_update": "2011-09-14 18:21:00", "staff_id": 1, "rental_date": "2005-08-17 00:29:00.000"}, {"rental_id": 11600, "inventory_id": 1978, "return_date": "2005-08-23 07:10:04.000", "customer_id": 400, "last_update": "2011-09-14 18:21:02", "staff_id": 1, "rental_date": "2005-08-17 03:12:04.000"}, {"rental_id": 12514, "inventory_id": 3310, "return_date": "2005-08-23 12:50:55.000", "customer_id": 400, "last_update": "2011-09-14 18:21:42", "staff_id": 2, "rental_date": "2005-08-18 13:33:55.000"}, {"rental_id": 13449, "inventory_id": 1297, "return_date": "2005-08-23 20:42:01.000", "customer_id": 400, "last_update": "2011-09-14 18:22:26", "staff_id": 2, "rental_date": "2005-08-20 00:17:01.000"}, {"rental_id": 14775, "inventory_id": 4044, "return_date": "2005-08-22 18:07:07.000", "customer_id": 400, "last_update": "2011-09-14 18:23:31", "staff_id": 2, "rental_date": "2005-08-21 23:53:07.000"}, {"rental_id": 15533, "inventory_id": 1895, "return_date": "2005-08-26 08:27:39.000", "customer_id": 400, "last_update": "2011-09-14 18:24:14", "staff_id": 2, "rental_date": "2005-08-23 03:54:39.000"}, {"rental_id": 15988, "inventory_id": 3932, "return_date": "2005-08-28 20:50:08.000", "customer_id": 400, "last_update": "2011-09-14 18:24:36", "staff_id": 1, "rental_date": "2005-08-23 20:23:08.000"}]
+DEBUG:root:len 5600
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000170CBF8>), ('/city$', <function all_cities at 0x000000000170CC80>), ('/store$', <function all_stores at 0x000000000170CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A2F0>), ('', <function no_match at 0x000000000170A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/178   match None
+INFO:root:rgx /city$   path /inventory/178   match None
+INFO:root:rgx /store$   path /inventory/178   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/178   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/178   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/178   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/178   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/178   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/178'>
+DEBUG:root:{'film_id': 39, 'inventory_id': 178, 'store_id': 2, 'last_update': '2011-09-14 18:05:59'}
+DEBUG:root:custJ {"film_id": 39, "inventory_id": 178, "store_id": 2, "last_update": "2011-09-14 18:05:59"}
+DEBUG:root:len 89
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/39   match None
+INFO:root:rgx /city$   path /film/39   match None
+INFO:root:rgx /store$   path /film/39   match None
+INFO:root:rgx /country/(\d+)$   path /film/39   match None
+INFO:root:rgx /customer/(\d+)$   path /film/39   match None
+INFO:root:rgx /city/(\d+)$   path /film/39   match None
+INFO:root:rgx /address/(\d+)$   path /film/39   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/39   match None
+INFO:root:rgx /film/(\d+)$   path /film/39   match <_sre.SRE_Match object; span=(0, 8), match='/film/39'>
+DEBUG:root:{'film_id': 39, 'rating': 'G', 'original_language_id': None, 'rental_rate': 0.99, 'description': 'A Fast-Paced Tale of a Boat And a Teacher who must Succumb a Composer in An Abandoned Mine Shaft', 'release_year': '2006', 'rental_duration': 5, 'language_id': 1, 'last_update': '2011-09-14 18:05:33', 'special_features': 'Trailers', 'title': 'ARMAGEDDON LOST', 'length': 99, 'replacement_cost': 10.99}
+DEBUG:root:custJ {"film_id": 39, "rating": "G", "original_language_id": null, "rental_rate": 0.99, "description": "A Fast-Paced Tale of a Boat And a Teacher who must Succumb a Composer in An Abandoned Mine Shaft", "release_year": "2006", "rental_duration": 5, "language_id": 1, "last_update": "2011-09-14 18:05:33", "special_features": "Trailers", "title": "ARMAGEDDON LOST", "length": 99, "replacement_cost": 10.99}
+DEBUG:root:len 399
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/4483   match None
+INFO:root:rgx /city$   path /inventory/4483   match None
+INFO:root:rgx /store$   path /inventory/4483   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/4483   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/4483   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/4483   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/4483   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/4483   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4483'>
+DEBUG:root:{'inventory_id': 4483, 'film_id': 979, 'last_update': '2011-09-14 18:07:47', 'store_id': 2}
+DEBUG:root:custJ {"inventory_id": 4483, "film_id": 979, "last_update": "2011-09-14 18:07:47", "store_id": 2}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000173CBF8>), ('/city$', <function all_cities at 0x000000000173CC80>), ('/store$', <function all_stores at 0x000000000173CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000173CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000173CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000173CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000173CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000173A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000173A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000173A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000173A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000173A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000173A2F0>), ('', <function no_match at 0x000000000173A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/979   match None
+INFO:root:rgx /city$   path /film/979   match None
+INFO:root:rgx /store$   path /film/979   match None
+INFO:root:rgx /country/(\d+)$   path /film/979   match None
+INFO:root:rgx /customer/(\d+)$   path /film/979   match None
+INFO:root:rgx /city/(\d+)$   path /film/979   match None
+INFO:root:rgx /address/(\d+)$   path /film/979   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/979   match None
+INFO:root:rgx /film/(\d+)$   path /film/979   match <_sre.SRE_Match object; span=(0, 9), match='/film/979'>
+DEBUG:root:{'special_features': 'Commentaries,Behind the Scenes', 'release_year': '2006', 'last_update': '2011-09-14 18:05:55', 'replacement_cost': 10.99, 'rating': 'NC-17', 'rental_duration': 6, 'rental_rate': 4.99, 'language_id': 1, 'length': 100, 'title': 'WITCHES PANIC', 'description': 'A Awe-Inspiring Drama of a Secret Agent And a Hunter who must Fight a Moose in Nigeria', 'film_id': 979, 'original_language_id': None}
+DEBUG:root:custJ {"special_features": "Commentaries,Behind the Scenes", "release_year": "2006", "last_update": "2011-09-14 18:05:55", "replacement_cost": 10.99, "rating": "NC-17", "rental_duration": 6, "rental_rate": 4.99, "language_id": 1, "length": 100, "title": "WITCHES PANIC", "description": "A Awe-Inspiring Drama of a Secret Agent And a Hunter who must Fight a Moose in Nigeria", "film_id": 979, "original_language_id": null}
+DEBUG:root:len 415
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000173CBF8>), ('/city$', <function all_cities at 0x000000000173CC80>), ('/store$', <function all_stores at 0x000000000173CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000173CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000173CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000173CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000173CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000173A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000173A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000173A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000173A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000173A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000173A2F0>), ('', <function no_match at 0x000000000173A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/4357   match None
+INFO:root:rgx /city$   path /inventory/4357   match None
+INFO:root:rgx /store$   path /inventory/4357   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/4357   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/4357   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/4357   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/4357   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/4357   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4357'>
+DEBUG:root:{'last_update': '2011-09-14 18:07:44', 'film_id': 949, 'store_id': 2, 'inventory_id': 4357}
+DEBUG:root:custJ {"last_update": "2011-09-14 18:07:44", "film_id": 949, "store_id": 2, "inventory_id": 4357}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/949   match None
+INFO:root:rgx /city$   path /film/949   match None
+INFO:root:rgx /store$   path /film/949   match None
+INFO:root:rgx /country/(\d+)$   path /film/949   match None
+INFO:root:rgx /customer/(\d+)$   path /film/949   match None
+INFO:root:rgx /city/(\d+)$   path /film/949   match None
+INFO:root:rgx /address/(\d+)$   path /film/949   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/949   match None
+INFO:root:rgx /film/(\d+)$   path /film/949   match <_sre.SRE_Match object; span=(0, 9), match='/film/949'>
+DEBUG:root:{'rating': 'NC-17', 'language_id': 1, 'special_features': 'Trailers,Commentaries,Deleted Scenes,Behind the Scenes', 'original_language_id': None, 'last_update': '2011-09-14 18:05:55', 'rental_rate': 0.99, 'rental_duration': 6, 'replacement_cost': 27.99, 'title': 'VOLCANO TEXAS', 'film_id': 949, 'description': 'A Awe-Inspiring Yarn of a Hunter And a Feminist who must Challenge a Dentist in The Outback', 'release_year': '2006', 'length': 157}
+DEBUG:root:custJ {"rating": "NC-17", "language_id": 1, "special_features": "Trailers,Commentaries,Deleted Scenes,Behind the Scenes", "original_language_id": null, "last_update": "2011-09-14 18:05:55", "rental_rate": 0.99, "rental_duration": 6, "replacement_cost": 27.99, "title": "VOLCANO TEXAS", "film_id": 949, "description": "A Awe-Inspiring Yarn of a Hunter And a Feminist who must Challenge a Dentist in The Outback", "release_year": "2006", "length": 157}
+DEBUG:root:len 444
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000174CBF8>), ('/city$', <function all_cities at 0x000000000174CC80>), ('/store$', <function all_stores at 0x000000000174CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000174CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000174CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000174CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000174CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000174A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000174A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000174A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000174A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000174A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000174A2F0>), ('', <function no_match at 0x000000000174A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/1118   match None
+INFO:root:rgx /city$   path /inventory/1118   match None
+INFO:root:rgx /store$   path /inventory/1118   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/1118   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/1118   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/1118   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/1118   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/1118   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/1118'>
+DEBUG:root:{'last_update': '2011-09-14 18:06:21', 'inventory_id': 1118, 'film_id': 247, 'store_id': 2}
+DEBUG:root:custJ {"last_update": "2011-09-14 18:06:21", "inventory_id": 1118, "film_id": 247, "store_id": 2}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000174CBF8>), ('/city$', <function all_cities at 0x000000000174CC80>), ('/store$', <function all_stores at 0x000000000174CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000174CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000174CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000174CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000174CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000174A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000174A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000174A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000174A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000174A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000174A2F0>), ('', <function no_match at 0x000000000174A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/247   match None
+INFO:root:rgx /city$   path /film/247   match None
+INFO:root:rgx /store$   path /film/247   match None
+INFO:root:rgx /country/(\d+)$   path /film/247   match None
+INFO:root:rgx /customer/(\d+)$   path /film/247   match None
+INFO:root:rgx /city/(\d+)$   path /film/247   match None
+INFO:root:rgx /address/(\d+)$   path /film/247   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/247   match None
+INFO:root:rgx /film/(\d+)$   path /film/247   match <_sre.SRE_Match object; span=(0, 9), match='/film/247'>
+DEBUG:root:{'rating': 'G', 'release_year': '2006', 'replacement_cost': 19.99, 'length': 47, 'special_features': 'Trailers,Commentaries,Deleted Scenes', 'rental_rate': 0.99, 'title': 'DOWNHILL ENOUGH', 'film_id': 247, 'description': 'A Emotional Tale of a Pastry Chef And a Forensic Psychologist who must Succumb a Monkey in The Sahara Desert', 'rental_duration': 3, 'last_update': '2011-09-14 18:05:38', 'original_language_id': None, 'language_id': 1}
+DEBUG:root:custJ {"rating": "G", "release_year": "2006", "replacement_cost": 19.99, "length": 47, "special_features": "Trailers,Commentaries,Deleted Scenes", "rental_rate": 0.99, "title": "DOWNHILL ENOUGH", "film_id": 247, "description": "A Emotional Tale of a Pastry Chef And a Forensic Psychologist who must Succumb a Monkey in The Sahara Desert", "rental_duration": 3, "last_update": "2011-09-14 18:05:38", "original_language_id": null, "language_id": 1}
+DEBUG:root:len 440
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000170CBF8>), ('/city$', <function all_cities at 0x000000000170CC80>), ('/store$', <function all_stores at 0x000000000170CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A2F0>), ('', <function no_match at 0x000000000170A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/115   match None
+INFO:root:rgx /city$   path /inventory/115   match None
+INFO:root:rgx /store$   path /inventory/115   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/115   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/115   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/115   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/115   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/115   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/115'>
+DEBUG:root:{'film_id': 23, 'store_id': 1, 'inventory_id': 115, 'last_update': '2011-09-14 18:05:58'}
+DEBUG:root:custJ {"film_id": 23, "store_id": 1, "inventory_id": 115, "last_update": "2011-09-14 18:05:58"}
+DEBUG:root:len 89
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/23   match None
+INFO:root:rgx /city$   path /film/23   match None
+INFO:root:rgx /store$   path /film/23   match None
+INFO:root:rgx /country/(\d+)$   path /film/23   match None
+INFO:root:rgx /customer/(\d+)$   path /film/23   match None
+INFO:root:rgx /city/(\d+)$   path /film/23   match None
+INFO:root:rgx /address/(\d+)$   path /film/23   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/23   match None
+INFO:root:rgx /film/(\d+)$   path /film/23   match <_sre.SRE_Match object; span=(0, 8), match='/film/23'>
+DEBUG:root:{'language_id': 1, 'rental_rate': 0.99, 'special_features': 'Trailers,Deleted Scenes', 'last_update': '2011-09-14 18:05:33', 'rating': 'R', 'film_id': 23, 'replacement_cost': 9.99, 'original_language_id': None, 'description': 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia', 'release_year': '2006', 'rental_duration': 3, 'title': 'ANACONDA CONFESSIONS', 'length': 92}
+DEBUG:root:custJ {"language_id": 1, "rental_rate": 0.99, "special_features": "Trailers,Deleted Scenes", "last_update": "2011-09-14 18:05:33", "rating": "R", "film_id": 23, "replacement_cost": 9.99, "original_language_id": null, "description": "A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia", "release_year": "2006", "rental_duration": 3, "title": "ANACONDA CONFESSIONS", "length": 92}
+DEBUG:root:len 405
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/2667   match None
+INFO:root:rgx /city$   path /inventory/2667   match None
+INFO:root:rgx /store$   path /inventory/2667   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/2667   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/2667   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/2667   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/2667   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/2667   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2667'>
+DEBUG:root:{'film_id': 586, 'store_id': 1, 'inventory_id': 2667, 'last_update': '2011-09-14 18:06:59'}
+DEBUG:root:custJ {"film_id": 586, "store_id": 1, "inventory_id": 2667, "last_update": "2011-09-14 18:06:59"}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000170CBF8>), ('/city$', <function all_cities at 0x000000000170CC80>), ('/store$', <function all_stores at 0x000000000170CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000170CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000170CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000170CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000170CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000170A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000170A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000170A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000170A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000170A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000170A2F0>), ('', <function no_match at 0x000000000170A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/586   match None
+INFO:root:rgx /city$   path /film/586   match None
+INFO:root:rgx /store$   path /film/586   match None
+INFO:root:rgx /country/(\d+)$   path /film/586   match None
+INFO:root:rgx /customer/(\d+)$   path /film/586   match None
+INFO:root:rgx /city/(\d+)$   path /film/586   match None
+INFO:root:rgx /address/(\d+)$   path /film/586   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/586   match None
+INFO:root:rgx /film/(\d+)$   path /film/586   match <_sre.SRE_Match object; span=(0, 9), match='/film/586'>
+DEBUG:root:{'last_update': '2011-09-14 18:05:46', 'description': 'A Thoughtful Panorama of a Man And a Car who must Sink a Composer in Berlin', 'title': 'MOCKINGBIRD HOLLYWOOD', 'film_id': 586, 'release_year': '2006', 'original_language_id': None, 'replacement_cost': 27.99, 'rating': 'PG', 'special_features': 'Behind the Scenes', 'rental_rate': 0.99, 'rental_duration': 4, 'language_id': 1, 'length': 60}
+DEBUG:root:custJ {"last_update": "2011-09-14 18:05:46", "description": "A Thoughtful Panorama of a Man And a Car who must Sink a Composer in Berlin", "title": "MOCKINGBIRD HOLLYWOOD", "film_id": 586, "release_year": "2006", "original_language_id": null, "replacement_cost": 27.99, "rating": "PG", "special_features": "Behind the Scenes", "rental_rate": 0.99, "rental_duration": 4, "language_id": 1, "length": 60}
+DEBUG:root:len 395
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/691   match None
+INFO:root:rgx /city$   path /inventory/691   match None
+INFO:root:rgx /store$   path /inventory/691   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/691   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/691   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/691   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/691   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/691   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/691'>
+DEBUG:root:{'store_id': 1, 'inventory_id': 691, 'film_id': 151, 'last_update': '2011-09-14 18:06:11'}
+DEBUG:root:custJ {"store_id": 1, "inventory_id": 691, "film_id": 151, "last_update": "2011-09-14 18:06:11"}
+DEBUG:root:len 90
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/151   match None
+INFO:root:rgx /city$   path /film/151   match None
+INFO:root:rgx /store$   path /film/151   match None
+INFO:root:rgx /country/(\d+)$   path /film/151   match None
+INFO:root:rgx /customer/(\d+)$   path /film/151   match None
+INFO:root:rgx /city/(\d+)$   path /film/151   match None
+INFO:root:rgx /address/(\d+)$   path /film/151   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/151   match None
+INFO:root:rgx /film/(\d+)$   path /film/151   match <_sre.SRE_Match object; span=(0, 9), match='/film/151'>
+DEBUG:root:{'language_id': 1, 'replacement_cost': 26.99, 'last_update': '2011-09-14 18:05:36', 'film_id': 151, 'special_features': 'Deleted Scenes', 'original_language_id': None, 'length': 143, 'rating': 'NC-17', 'rental_duration': 5, 'title': 'CINCINATTI WHISPERER', 'description': 'A Brilliant Saga of a Pastry Chef And a Hunter who must Confront a Butler in Berlin', 'release_year': '2006', 'rental_rate': 4.99}
+DEBUG:root:custJ {"language_id": 1, "replacement_cost": 26.99, "last_update": "2011-09-14 18:05:36", "film_id": 151, "special_features": "Deleted Scenes", "original_language_id": null, "length": 143, "rating": "NC-17", "rental_duration": 5, "title": "CINCINATTI WHISPERER", "description": "A Brilliant Saga of a Pastry Chef And a Hunter who must Confront a Butler in Berlin", "release_year": "2006", "rental_rate": 4.99}
+DEBUG:root:len 403
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016CCBF8>), ('/city$', <function all_cities at 0x00000000016CCC80>), ('/store$', <function all_stores at 0x00000000016CCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016CCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016CCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016CCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016CCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016CA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016CA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016CA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016CA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016CA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016CA2F0>), ('', <function no_match at 0x00000000016CA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/2478   match None
+INFO:root:rgx /city$   path /inventory/2478   match None
+INFO:root:rgx /store$   path /inventory/2478   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/2478   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/2478   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/2478   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/2478   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/2478   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2478'>
+DEBUG:root:{'inventory_id': 2478, 'last_update': '2011-09-14 18:06:55', 'film_id': 543, 'store_id': 1}
+DEBUG:root:custJ {"inventory_id": 2478, "last_update": "2011-09-14 18:06:55", "film_id": 543, "store_id": 1}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/543   match None
+INFO:root:rgx /city$   path /film/543   match None
+INFO:root:rgx /store$   path /film/543   match None
+INFO:root:rgx /country/(\d+)$   path /film/543   match None
+INFO:root:rgx /customer/(\d+)$   path /film/543   match None
+INFO:root:rgx /city/(\d+)$   path /film/543   match None
+INFO:root:rgx /address/(\d+)$   path /film/543   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/543   match None
+INFO:root:rgx /film/(\d+)$   path /film/543   match <_sre.SRE_Match object; span=(0, 9), match='/film/543'>
+DEBUG:root:{'rental_duration': 5, 'length': 116, 'original_language_id': None, 'special_features': 'Deleted Scenes,Behind the Scenes', 'replacement_cost': 20.99, 'title': 'MADIGAN DORADO', 'film_id': 543, 'release_year': '2006', 'description': 'A Astounding Character Study of a A Shark And a A Shark who must Discover a Crocodile in The Outback', 'rating': 'R', 'rental_rate': 4.99, 'language_id': 1, 'last_update': '2011-09-14 18:05:45'}
+DEBUG:root:custJ {"rental_duration": 5, "length": 116, "original_language_id": null, "special_features": "Deleted Scenes,Behind the Scenes", "replacement_cost": 20.99, "title": "MADIGAN DORADO", "film_id": 543, "release_year": "2006", "description": "A Astounding Character Study of a A Shark And a A Shark who must Discover a Crocodile in The Outback", "rating": "R", "rental_rate": 4.99, "language_id": 1, "last_update": "2011-09-14 18:05:45"}
+DEBUG:root:len 428
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/687   match None
+INFO:root:rgx /city$   path /inventory/687   match None
+INFO:root:rgx /store$   path /inventory/687   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/687   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/687   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/687   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/687   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/687   match <_sre.SRE_Match object; span=(0, 14), match='/inventory/687'>
+DEBUG:root:{'store_id': 2, 'last_update': '2011-09-14 18:06:11', 'film_id': 150, 'inventory_id': 687}
+DEBUG:root:custJ {"store_id": 2, "last_update": "2011-09-14 18:06:11", "film_id": 150, "inventory_id": 687}
+DEBUG:root:len 90
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000175CBF8>), ('/city$', <function all_cities at 0x000000000175CC80>), ('/store$', <function all_stores at 0x000000000175CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000175CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000175CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000175CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000175CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000175A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000175A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000175A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000175A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000175A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000175A2F0>), ('', <function no_match at 0x000000000175A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/150   match None
+INFO:root:rgx /city$   path /film/150   match None
+INFO:root:rgx /store$   path /film/150   match None
+INFO:root:rgx /country/(\d+)$   path /film/150   match None
+INFO:root:rgx /customer/(\d+)$   path /film/150   match None
+INFO:root:rgx /city/(\d+)$   path /film/150   match None
+INFO:root:rgx /address/(\d+)$   path /film/150   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/150   match None
+INFO:root:rgx /film/(\d+)$   path /film/150   match <_sre.SRE_Match object; span=(0, 9), match='/film/150'>
+DEBUG:root:{'release_year': '2006', 'language_id': 1, 'title': 'CIDER DESIRE', 'replacement_cost': 9.99, 'rental_rate': 2.99, 'original_language_id': None, 'film_id': 150, 'rating': 'PG', 'last_update': '2011-09-14 18:05:36', 'special_features': 'Behind the Scenes', 'description': 'A Stunning Character Study of a Composer And a Mad Cow who must Succumb a Cat in Soviet Georgia', 'length': 101, 'rental_duration': 7}
+DEBUG:root:custJ {"release_year": "2006", "language_id": 1, "title": "CIDER DESIRE", "replacement_cost": 9.99, "rental_rate": 2.99, "original_language_id": null, "film_id": 150, "rating": "PG", "last_update": "2011-09-14 18:05:36", "special_features": "Behind the Scenes", "description": "A Stunning Character Study of a Composer And a Mad Cow who must Succumb a Cat in Soviet Georgia", "length": 101, "rental_duration": 7}
+DEBUG:root:len 406
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016FCBF8>), ('/city$', <function all_cities at 0x00000000016FCC80>), ('/store$', <function all_stores at 0x00000000016FCD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016FCE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016FCD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016FCEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016FCF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016FA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016FA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016FA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016FA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016FA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016FA2F0>), ('', <function no_match at 0x00000000016FA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/3240   match None
+INFO:root:rgx /city$   path /inventory/3240   match None
+INFO:root:rgx /store$   path /inventory/3240   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/3240   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/3240   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/3240   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/3240   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/3240   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/3240'>
+DEBUG:root:{'film_id': 711, 'last_update': '2011-09-14 18:07:15', 'inventory_id': 3240, 'store_id': 2}
+DEBUG:root:custJ {"film_id": 711, "last_update": "2011-09-14 18:07:15", "inventory_id": 3240, "store_id": 2}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000173CBF8>), ('/city$', <function all_cities at 0x000000000173CC80>), ('/store$', <function all_stores at 0x000000000173CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000173CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000173CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000173CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000173CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000173A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000173A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000173A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000173A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000173A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000173A2F0>), ('', <function no_match at 0x000000000173A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/711   match None
+INFO:root:rgx /city$   path /film/711   match None
+INFO:root:rgx /store$   path /film/711   match None
+INFO:root:rgx /country/(\d+)$   path /film/711   match None
+INFO:root:rgx /customer/(\d+)$   path /film/711   match None
+INFO:root:rgx /city/(\d+)$   path /film/711   match None
+INFO:root:rgx /address/(\d+)$   path /film/711   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/711   match None
+INFO:root:rgx /film/(\d+)$   path /film/711   match <_sre.SRE_Match object; span=(0, 9), match='/film/711'>
+DEBUG:root:{'language_id': 1, 'rating': 'R', 'description': 'A Astounding Display of a Secret Agent And a Technical Writer who must Escape a Mad Scientist in A Jet Boat', 'special_features': 'Commentaries,Deleted Scenes', 'rental_rate': 4.99, 'replacement_cost': 18.99, 'release_year': '2006', 'film_id': 711, 'title': 'RAGING AIRPLANE', 'length': 154, 'original_language_id': None, 'rental_duration': 4, 'last_update': '2011-09-14 18:05:49'}
+DEBUG:root:custJ {"language_id": 1, "rating": "R", "description": "A Astounding Display of a Secret Agent And a Technical Writer who must Escape a Mad Scientist in A Jet Boat", "special_features": "Commentaries,Deleted Scenes", "rental_rate": 4.99, "replacement_cost": 18.99, "release_year": "2006", "film_id": 711, "title": "RAGING AIRPLANE", "length": 154, "original_language_id": null, "rental_duration": 4, "last_update": "2011-09-14 18:05:49"}
+DEBUG:root:len 431
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/2508   match None
+INFO:root:rgx /city$   path /inventory/2508   match None
+INFO:root:rgx /store$   path /inventory/2508   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/2508   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/2508   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/2508   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/2508   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/2508   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/2508'>
+DEBUG:root:{'inventory_id': 2508, 'film_id': 551, 'last_update': '2011-09-14 18:06:56', 'store_id': 2}
+DEBUG:root:custJ {"inventory_id": 2508, "film_id": 551, "last_update": "2011-09-14 18:06:56", "store_id": 2}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000171CBF8>), ('/city$', <function all_cities at 0x000000000171CC80>), ('/store$', <function all_stores at 0x000000000171CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A2F0>), ('', <function no_match at 0x000000000171A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/551   match None
+INFO:root:rgx /city$   path /film/551   match None
+INFO:root:rgx /store$   path /film/551   match None
+INFO:root:rgx /country/(\d+)$   path /film/551   match None
+INFO:root:rgx /customer/(\d+)$   path /film/551   match None
+INFO:root:rgx /city/(\d+)$   path /film/551   match None
+INFO:root:rgx /address/(\d+)$   path /film/551   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/551   match None
+INFO:root:rgx /film/(\d+)$   path /film/551   match <_sre.SRE_Match object; span=(0, 9), match='/film/551'>
+DEBUG:root:{'last_update': '2011-09-14 18:05:45', 'rating': 'PG', 'language_id': 1, 'length': 138, 'rental_duration': 3, 'original_language_id': None, 'description': 'A Lacklusture Saga of a Moose And a Teacher who must Kill a Forensic Psychologist in A MySQL Convention', 'title': 'MAIDEN HOME', 'rental_rate': 4.99, 'replacement_cost': 9.99, 'release_year': '2006', 'film_id': 551, 'special_features': 'Behind the Scenes'}
+DEBUG:root:custJ {"last_update": "2011-09-14 18:05:45", "rating": "PG", "language_id": 1, "length": 138, "rental_duration": 3, "original_language_id": null, "description": "A Lacklusture Saga of a Moose And a Teacher who must Kill a Forensic Psychologist in A MySQL Convention", "title": "MAIDEN HOME", "rental_rate": 4.99, "replacement_cost": 9.99, "release_year": "2006", "film_id": 551, "special_features": "Behind the Scenes"}
+DEBUG:root:len 413
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000179CBF8>), ('/city$', <function all_cities at 0x000000000179CC80>), ('/store$', <function all_stores at 0x000000000179CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000179CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000179CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000179CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000179CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000179A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000179A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000179A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000179A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000179A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000179A2F0>), ('', <function no_match at 0x000000000179A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/4486   match None
+INFO:root:rgx /city$   path /inventory/4486   match None
+INFO:root:rgx /store$   path /inventory/4486   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/4486   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/4486   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/4486   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/4486   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/4486   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4486'>
+DEBUG:root:{'inventory_id': 4486, 'last_update': '2011-09-14 18:07:47', 'film_id': 980, 'store_id': 1}
+DEBUG:root:custJ {"inventory_id": 4486, "last_update": "2011-09-14 18:07:47", "film_id": 980, "store_id": 1}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x00000000016ECBF8>), ('/city$', <function all_cities at 0x00000000016ECC80>), ('/store$', <function all_stores at 0x00000000016ECD08>), ('/country/(\\d+)$', <function country_by_id at 0x00000000016ECE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x00000000016ECD90>), ('/city/(\\d+)$', <function city_by_id at 0x00000000016ECEA0>), ('/address/(\\d+)$', <function address_by_id at 0x00000000016ECF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x00000000016EA048>), ('/film/(\\d+)$', <function film_by_id at 0x00000000016EA0D0>), ('/store/(\\d+)$', <function store_by_id at 0x00000000016EA158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x00000000016EA1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x00000000016EA268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x00000000016EA2F0>), ('', <function no_match at 0x00000000016EA378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/980   match None
+INFO:root:rgx /city$   path /film/980   match None
+INFO:root:rgx /store$   path /film/980   match None
+INFO:root:rgx /country/(\d+)$   path /film/980   match None
+INFO:root:rgx /customer/(\d+)$   path /film/980   match None
+INFO:root:rgx /city/(\d+)$   path /film/980   match None
+INFO:root:rgx /address/(\d+)$   path /film/980   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/980   match None
+INFO:root:rgx /film/(\d+)$   path /film/980   match <_sre.SRE_Match object; span=(0, 9), match='/film/980'>
+DEBUG:root:{'title': 'WIZARD COLDBLOODED', 'rental_rate': 4.99, 'special_features': 'Commentaries,Deleted Scenes,Behind the Scenes', 'replacement_cost': 12.99, 'description': 'A Lacklusture Display of a Robot And a Girl who must Defeat a Sumo Wrestler in A MySQL Convention', 'last_update': '2011-09-14 18:05:55', 'original_language_id': None, 'rental_duration': 4, 'release_year': '2006', 'length': 75, 'rating': 'PG', 'film_id': 980, 'language_id': 1}
+DEBUG:root:custJ {"title": "WIZARD COLDBLOODED", "rental_rate": 4.99, "special_features": "Commentaries,Deleted Scenes,Behind the Scenes", "replacement_cost": 12.99, "description": "A Lacklusture Display of a Robot And a Girl who must Defeat a Sumo Wrestler in A MySQL Convention", "last_update": "2011-09-14 18:05:55", "original_language_id": null, "rental_duration": 4, "release_year": "2006", "length": 75, "rating": "PG", "film_id": 980, "language_id": 1}
+DEBUG:root:len 442
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000171CBF8>), ('/city$', <function all_cities at 0x000000000171CC80>), ('/store$', <function all_stores at 0x000000000171CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A2F0>), ('', <function no_match at 0x000000000171A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/4316   match None
+INFO:root:rgx /city$   path /inventory/4316   match None
+INFO:root:rgx /store$   path /inventory/4316   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/4316   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/4316   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/4316   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/4316   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/4316   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/4316'>
+DEBUG:root:{'inventory_id': 4316, 'film_id': 940, 'store_id': 1, 'last_update': '2011-09-14 18:07:43'}
+DEBUG:root:custJ {"inventory_id": 4316, "film_id": 940, "store_id": 1, "last_update": "2011-09-14 18:07:43"}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/940   match None
+INFO:root:rgx /city$   path /film/940   match None
+INFO:root:rgx /store$   path /film/940   match None
+INFO:root:rgx /country/(\d+)$   path /film/940   match None
+INFO:root:rgx /customer/(\d+)$   path /film/940   match None
+INFO:root:rgx /city/(\d+)$   path /film/940   match None
+INFO:root:rgx /address/(\d+)$   path /film/940   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/940   match None
+INFO:root:rgx /film/(\d+)$   path /film/940   match <_sre.SRE_Match object; span=(0, 9), match='/film/940'>
+DEBUG:root:{'rating': 'PG-13', 'last_update': '2011-09-14 18:05:55', 'rental_duration': 6, 'replacement_cost': 19.99, 'language_id': 1, 'description': 'A Insightful Epistle of a Mad Scientist And a Explorer who must Challenge a Cat in The Sahara Desert', 'film_id': 940, 'special_features': 'Trailers,Behind the Scenes', 'release_year': '2006', 'rental_rate': 0.99, 'title': 'VICTORY ACADEMY', 'original_language_id': None, 'length': 64}
+DEBUG:root:custJ {"rating": "PG-13", "last_update": "2011-09-14 18:05:55", "rental_duration": 6, "replacement_cost": 19.99, "language_id": 1, "description": "A Insightful Epistle of a Mad Scientist And a Explorer who must Challenge a Cat in The Sahara Desert", "film_id": 940, "special_features": "Trailers,Behind the Scenes", "release_year": "2006", "rental_rate": 0.99, "title": "VICTORY ACADEMY", "original_language_id": null, "length": 64}
+DEBUG:root:len 426
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000172CBF8>), ('/city$', <function all_cities at 0x000000000172CC80>), ('/store$', <function all_stores at 0x000000000172CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000172CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000172CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000172CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000172CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000172A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000172A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000172A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000172A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000172A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000172A2F0>), ('', <function no_match at 0x000000000172A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /inventory/1681   match None
+INFO:root:rgx /city$   path /inventory/1681   match None
+INFO:root:rgx /store$   path /inventory/1681   match None
+INFO:root:rgx /country/(\d+)$   path /inventory/1681   match None
+INFO:root:rgx /customer/(\d+)$   path /inventory/1681   match None
+INFO:root:rgx /city/(\d+)$   path /inventory/1681   match None
+INFO:root:rgx /address/(\d+)$   path /inventory/1681   match None
+INFO:root:rgx /inventory/(\d+)$   path /inventory/1681   match <_sre.SRE_Match object; span=(0, 15), match='/inventory/1681'>
+DEBUG:root:{'film_id': 367, 'last_update': '2011-09-14 18:06:34', 'store_id': 1, 'inventory_id': 1681}
+DEBUG:root:custJ {"film_id": 367, "last_update": "2011-09-14 18:06:34", "store_id": 1, "inventory_id": 1681}
+DEBUG:root:len 91
+DEBUG:root:Dispatch finished
+INFO:root:get
+INFO:root:[('/customer$', <function all_customers at 0x000000000171CBF8>), ('/city$', <function all_cities at 0x000000000171CC80>), ('/store$', <function all_stores at 0x000000000171CD08>), ('/country/(\\d+)$', <function country_by_id at 0x000000000171CE18>), ('/customer/(\\d+)$', <function customer_by_id at 0x000000000171CD90>), ('/city/(\\d+)$', <function city_by_id at 0x000000000171CEA0>), ('/address/(\\d+)$', <function address_by_id at 0x000000000171CF28>), ('/inventory/(\\d+)$', <function inventory_by_id at 0x000000000171A048>), ('/film/(\\d+)$', <function film_by_id at 0x000000000171A0D0>), ('/store/(\\d+)$', <function store_by_id at 0x000000000171A158>), ('/rental/customerid/(\\d+)$', <function rentals_by_customer at 0x000000000171A1E0>), ('/payment/customerid/(\\d+)$', <function payments_by_customer at 0x000000000171A268>), ('/customer/total_payments/(\\d+)$', <function total_payments_by_customer at 0x000000000171A2F0>), ('', <function no_match at 0x000000000171A378>)]
+INFO:root:dispatch started
+INFO:root:rgx /customer$   path /film/367   match None
+INFO:root:rgx /city$   path /film/367   match None
+INFO:root:rgx /store$   path /film/367   match None
+INFO:root:rgx /country/(\d+)$   path /film/367   match None
+INFO:root:rgx /customer/(\d+)$   path /film/367   match None
+INFO:root:rgx /city/(\d+)$   path /film/367   match None
+INFO:root:rgx /address/(\d+)$   path /film/367   match None
+INFO:root:rgx /inventory/(\d+)$   path /film/367   match None
+INFO:root:rgx /film/(\d+)$   path /film/367   match <_sre.SRE_Match object; span=(0, 9), match='/film/367'>
+DEBUG:root:{'title': 'GOLDMINE TYCOON', 'replacement_cost': 20.99, 'rental_duration': 6, 'language_id': 1, 'rating': 'R', 'rental_rate': 0.99, 'description': 'A Brilliant Epistle of a Composer And a Frisbee who must Conquer a Husband in The Outback', 'film_id': 367, 'original_language_id': None, 'release_year': '2006', 'last_update': '2011-09-14 18:05:40', 'special_features': 'Trailers,Behind the Scenes', 'length': 153}
+DEBUG:root:custJ {"title": "GOLDMINE TYCOON", "replacement_cost": 20.99, "rental_duration": 6, "language_id": 1, "rating": "R", "rental_rate": 0.99, "description": "A Brilliant Epistle of a Composer And a Frisbee who must Conquer a Husband in The Outback", "film_id": 367, "original_language_id": null, "release_year": "2006", "last_update": "2011-09-14 18:05:40", "special_features": "Trailers,Behind the Scenes", "length": 153}
+DEBUG:root:len 412
+DEBUG:root:Dispatch finished

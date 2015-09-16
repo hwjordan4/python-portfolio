@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Select Customer</title>
+    <link href="/style1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Select a Customer</h1>
+    <form method="get" action="customer_selected_display.py">
+        <select size="10" name="customer_id">
+            {% for cust in customers %}
+                <option value="{{ cust.customer_id }}"
+                    {% if loop.index == 1 %}
+                        selected
+                    {% endif %}
+                >
+                    {{ cust.last_name|capitalize }}, {{ cust.first_name|capitalize }}
+                </option>
+            {% endfor %}
+        </select>
+        <p>
+            <input type="submit" value="Display Selected Customer"/>
+        </p>
+    </form>
+</body>
+</html>
